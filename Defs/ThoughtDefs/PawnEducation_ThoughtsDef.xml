@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThoughtDef>
+    <defName>PawnEducation_PassionTeach</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>15</durationDays>
+    <stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+    <stackLimit>10</stackLimit>
+    <stackLimitForSameOtherPawn>5</stackLimitForSameOtherPawn>
+	 <maxCumulatedOpinionOffset>25</maxCumulatedOpinionOffset>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+      <li>TooSmart</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>Passionate tutelage</label>
+        <baseOpinionOffset>3</baseOpinionOffset>
+      </li>
+    </stages>
+    <thoughtToMake>PawnEducation_PassionTeachMood</thoughtToMake>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PawnEducation_PassionTeachMood</defName>
+    <durationDays>3</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>1</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+      <li>TooSmart</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>Passionate tutelage</label>
+        <description>I've educated an acquaintance on a subject I am passionate about.</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>PawnEducation_PassionLearn</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>15</durationDays>
+    <stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+    <stackLimit>10</stackLimit>
+    <stackLimitForSameOtherPawn>5</stackLimitForSameOtherPawn>
+    <maxCumulatedOpinionOffset>25</maxCumulatedOpinionOffset>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+      <li>TooSmart</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>Passionate education</label>
+        <baseOpinionOffset>3</baseOpinionOffset>
+      </li>
+    </stages>
+    <thoughtToMake>PawnEducation_PassionLearnMood</thoughtToMake>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PawnEducation_PassionLearnMood</defName>
+    <durationDays>3</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>1</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+      <li>TooSmart</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>Passionate education</label>
+        <description>I've learned from a tutor about a subject I am passionate about.</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>PawnEducation_BurningPassionTeach</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>15</durationDays>
+    <stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+    <stackLimit>10</stackLimit>
+    <stackLimitForSameOtherPawn>5</stackLimitForSameOtherPawn>
+    <maxCumulatedOpinionOffset>50</maxCumulatedOpinionOffset>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+      <li>TooSmart</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>Very passionate tutelage</label>
+        <baseOpinionOffset>5</baseOpinionOffset>
+      </li>
+    </stages>
+    <thoughtToMake>PawnEducation_BurningPassionTeachMood</thoughtToMake>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PawnEducation_BurningPassionTeachMood</defName>
+    <durationDays>3</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.67</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+      <li>TooSmart</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>Very passionate tutelage</label>
+        <description>I've educated an acquaintance on a subject I have a burning passion for.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>PawnEducation_BurningPassionLearn</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>15</durationDays>
+    <stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+    <stackLimit>10</stackLimit>
+    <stackLimitForSameOtherPawn>5</stackLimitForSameOtherPawn>
+    <maxCumulatedOpinionOffset>50</maxCumulatedOpinionOffset>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+      <li>TooSmart</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>Very passionate education</label>
+        <baseOpinionOffset>5</baseOpinionOffset>
+      </li>
+    </stages>
+    <thoughtToMake>PawnEducation_BurningPassionLearnMood</thoughtToMake>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PawnEducation_BurningPassionLearnMood</defName>
+    <durationDays>3</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.67</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+      <li>TooSmart</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>Very passionate education</label>
+        <description>I've learned from a tutor about a subject I have a burning passion for.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>PawnEducation_MasterLearn</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>15</durationDays>
+    <stackedEffectMultiplier>0.5</stackedEffectMultiplier>
+    <stackLimit>5</stackLimit>
+    <stackLimitForSameOtherPawn>5</stackLimitForSameOtherPawn>
+    <maxCumulatedOpinionOffset>50</maxCumulatedOpinionOffset>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+      <li>TooSmart</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>Master education</label>
+        <baseOpinionOffset>25</baseOpinionOffset>
+      </li>
+    </stages>
+    <thoughtToMake>PawnEducation_MasterLearnMood</thoughtToMake>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PawnEducation_MasterLearnMood</defName>
+    <durationDays>3</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.5</stackedEffectMultiplier>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+      <li>TooSmart</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>Master education</label>
+        <description>Wow! I got a personal lesson from THE master of a craft.</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>
