@@ -27,12 +27,12 @@ namespace PawnEducation
 
         public static void ReadModSettings(ref string message)
         {
-            string path = $"{GenFilePaths.ConfigFolderPath}\\PawnEducation.config";
+            var path = $"{GenFilePaths.ConfigFolderPath}\\PawnEducation.config";
 
             if (File.Exists(path))
             {
-                XmlSerializer xml = new XmlSerializer(typeof(ModSettings));
-                FileStream file = new FileStream(path, FileMode.Open);
+                var xml = new XmlSerializer(typeof(ModSettings));
+                var file = new FileStream(path, FileMode.Open);
 
                 if (file.CanRead)
                 {
@@ -56,9 +56,9 @@ namespace PawnEducation
 
         public static void WriteModSettings()
         {
-            string path = $"{GenFilePaths.ConfigFolderPath}\\PawnEducation.config";
+            var path = $"{GenFilePaths.ConfigFolderPath}\\PawnEducation.config";
 
-            XmlSerializer xml = new XmlSerializer(typeof(ModSettings));
+            var xml = new XmlSerializer(typeof(ModSettings));
             TextWriter file = new StreamWriter(path);
             xml.Serialize(file, ModSettings.instance);
 

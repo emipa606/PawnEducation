@@ -1,378 +1,378 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <RulePackDef>
     <defName>PawnEducation_Shooting</defName>
     <rulePack>
       <rulesStrings>
-        <li>sent->[sentence].</li>
-
-        <li>sentence->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [exchangeverbclause] [topic]</li>
-        <li>sentence->[INITIATOR_nameDef] [exchangeverbclause] [topic] with [RECIPIENT_nameDef]</li>
-
-        <li>exchangeverbclause->discussed</li>
-        <li>exchangeverbclause->talked about the finer points of</li>
-        <li>exchangeverbclause->had a debate about</li>
-        <li>exchangeverbclause->argued civilly about</li>
-        <li>exchangeverbclause->lectured about</li>
-
-        <li>topic->shooting [target] from a distance</li>
-        <li>topic->sniping at [target]</li>
-        <li>topic->zeroing scopes</li>
-        <li>topic->cleaning barrels</li>
-        <li>topic->the best gun stocks</li>
-        <li>topic->ammunition calibers</li>
-        <li>topic->quick draw techniques</li>
-        
-        <li>target->[Animal]s</li>
-        <li>target->[Enemies]s</li>
-        <li>target->[Mechanoid]s</li>
-        <li>target->[PeopleBadass]s</li>
-        <li>target->fellow colonists</li>
+        <li>sent-&gt;[sentence].</li>
+        <li>sentence-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] [pe_exchangeverbclause] [pe_topic]</li>
+        <li>sentence-&gt;[INITIATOR_nameDef] [pe_exchangeverbclause] [pe_topic] with [RECIPIENT_nameDef]</li>
+        <li>pe_exchangeverbclause-&gt;discussed</li>
+        <li>pe_exchangeverbclause-&gt;talked about the finer points of</li>
+        <li>pe_exchangeverbclause-&gt;had a debate about</li>
+        <li>pe_exchangeverbclause-&gt;argued civilly about</li>
+        <li>pe_exchangeverbclause-&gt;lectured about</li>
+        <li>pe_exchangeverbclause-&gt;exchanged words about</li>
+        <li>pe_exchangeverbclause-&gt;conversed about</li>
+        <li>pe_topic-&gt;shooting [pe_target] from a distance</li>
+        <li>pe_topic-&gt;sniping at [pe_target]</li>
+        <li>pe_topic-&gt;zeroing scopes</li>
+        <li>pe_topic-&gt;cleaning barrels</li>
+        <li>pe_topic-&gt;the best gun stocks</li>
+        <li>pe_topic-&gt;ammunition calibers</li>
+        <li>pe_topic-&gt;quick draw techniques</li>
+        <li>pe_topic-&gt;the most comfortable type of grip</li>
+        <li>pe_topic-&gt;trigger discipline</li>
+        <li>pe_target-&gt;[Animal]s</li>
+        <li>pe_target-&gt;[Enemies]s</li>
+        <li>pe_target-&gt;[Mechanoid]s</li>
+        <li>pe_target-&gt;[PeopleBadass]s</li>
+        <li>pe_target-&gt;fellow colonists</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
-
   <RulePackDef>
     <defName>PawnEducation_Melee</defName>
     <rulePack>
       <rulesStrings>
-        <li>sent->[sentence].</li>
-
-        <li>sentence->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [exchangeverbclause] [topic]</li>
-        <li>sentence->[INITIATOR_nameDef] [exchangeverbclause] [topic] with [RECIPIENT_nameDef]</li>
-
-        <li>exchangeverbclause->discussed</li>
-        <li>exchangeverbclause->talked about the finer points of</li>
-        <li>exchangeverbclause->had a debate about</li>
-        <li>exchangeverbclause->argued civilly about</li>
-        <li>exchangeverbclause->lectured about</li>
-
-        <li>topic->whacking [target] up close</li>
-        <li>topic->beating [target] with a stick</li>
-        <li>topic->putting [target] in a choke hold</li>
-        <li>topic->applying a suplex slam on [target]</li>
-        <li>topic->skewering [target]</li>
-        <li>topic->[style] versus [style]</li>
-        
-        <li>target->[Animal]s</li>
-        <li>target->[Enemies]s</li>
-        <li>target->[Mechanoid]s</li>
-        <li>target->[PeopleBadass]s</li>
-        <li>target->fellow colonists</li>
-
-        <li>style->tae-kwon-do</li>
-        <li>style->muay thai</li>
-        <li>style->karate</li>
-        <li>style->ju-jitsu</li>
-        <li>style->[Celestial] ju-jitsu</li>
-        <li>style->hapkido</li>
-        <li>style->wrestling</li>
-        <li>style->krav magra</li>
+        <li>sent-&gt;[sentence].</li>
+        <li>sentence-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] [pe_exchangeverbclause] [pe_topic]</li>
+        <li>sentence-&gt;[INITIATOR_nameDef] [pe_exchangeverbclause] [pe_topic] with [RECIPIENT_nameDef]</li>
+        <li>pe_exchangeverbclause-&gt;discussed</li>
+        <li>pe_exchangeverbclause-&gt;talked about the finer points of</li>
+        <li>pe_exchangeverbclause-&gt;had a debate about</li>
+        <li>pe_exchangeverbclause-&gt;argued civilly about</li>
+        <li>pe_exchangeverbclause-&gt;lectured about</li>
+        <li>pe_exchangeverbclause-&gt;exchanged words about</li>
+        <li>pe_exchangeverbclause-&gt;conversed about</li>
+        <li>pe_topic-&gt;whacking [pe_target] up close with a [Weapon]</li>
+        <li>pe_topic-&gt;beating [pe_target] with a [Weapon]</li>
+        <li>pe_topic-&gt;putting [pe_target] in a [pe_submission]</li>
+        <li>pe_topic-&gt;applying a [pe_submission] on [pe_target]</li>
+        <li>pe_topic-&gt;skewering [pe_target] with a [Weapon]</li>
+        <li>pe_topic-&gt;[pe_style] versus [pe_style]</li>
+        <li>pe_target-&gt;[Animal]s</li>
+        <li>pe_target-&gt;[Enemies]s</li>
+        <li>pe_target-&gt;[Mechanoid]s</li>
+        <li>pe_target-&gt;[PeopleBadass]s</li>
+        <li>pe_target-&gt;fellow colonists</li>
+        <li>pe_style-&gt;tae-kwon-do</li>
+        <li>pe_style-&gt;muay thai</li>
+        <li>pe_style-&gt;karate</li>
+        <li>pe_style-&gt;ju-jitsu</li>
+        <li>pe_style-&gt;[Celestial] ju-jitsu</li>
+        <li>pe_style-&gt;hapkido</li>
+        <li>pe_style-&gt;wrestling</li>
+        <li>pe_style-&gt;krav magra</li>
+        <li>pe_style-&gt;judo</li>
+        <li>pe_style-&gt;sambo</li>
+        <li>pe_submission-&gt;darce choke</li>
+        <li>pe_submission-&gt;choke hold</li>
+        <li>pe_submission-&gt;crucifix choke</li>
+        <li>pe_submission-&gt;arm bar</li>
+        <li>pe_submission-&gt;leg lock</li>
+        <li>pe_submission-&gt;heel lock</li>
+        <li>pe_submission-&gt;ankle lock</li>
+        <li>pe_submission-&gt;guillotine</li>
+        <li>pe_submission-&gt;triangle</li>
+        <li>pe_submission-&gt;mounted crucifix</li>
+        <li>pe_submission-&gt;suplex slam</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
-
   <RulePackDef>
     <defName>PawnEducation_Construction</defName>
     <rulePack>
       <rulesStrings>
-        <li>sent->[sentence].</li>
-
-        <li>sentence->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [exchangeverbclause] [topic]</li>
-        <li>sentence->[INITIATOR_nameDef] [exchangeverbclause] [topic] with [RECIPIENT_nameDef]</li>
-
-        <li>exchangeverbclause->discussed</li>
-        <li>exchangeverbclause->talked about the finer points of</li>
-        <li>exchangeverbclause->had a debate about</li>
-        <li>exchangeverbclause->argued civilly about</li>
-        <li>exchangeverbclause->lectured about</li>
-
-        <li>topic->proofing buildings for [disaster]</li>
-        <li>topic->constructing [object]</li>
-        <li>topic->the best type of [tool]</li>
-        <li>topic->roofing tiles</li>
-        <li>topic->not smashing fingers when building</li>
-
-        <li>disaster->earthquakes</li>
-        <li>disaster->tsunamis</li>
-        <li>disaster->tornadoes</li>
-        <li>disaster->volcanic eruptions</li>
-        <li>disaster->nuclear fallout</li>
-        
-        <li>object->turrets</li>
-        <li>object->walls</li>
-        <li>object->beds</li>
-        <li>object->floors</li>
-
-        <li>tool->hammer</li>
-        <li>tool->wrench</li>
-        <li>tool->spanner</li>
-        <li>tool->sickle</li>
+        <li>sent-&gt;[sentence].</li>
+        <li>sentence-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] [pe_exchangeverbclause] [pe_topic]</li>
+        <li>sentence-&gt;[INITIATOR_nameDef] [pe_exchangeverbclause] [pe_topic] with [RECIPIENT_nameDef]</li>
+        <li>pe_exchangeverbclause-&gt;discussed</li>
+        <li>pe_exchangeverbclause-&gt;talked about the finer points of</li>
+        <li>pe_exchangeverbclause-&gt;had a debate about</li>
+        <li>pe_exchangeverbclause-&gt;argued civilly about</li>
+        <li>pe_exchangeverbclause-&gt;lectured about</li>
+        <li>pe_exchangeverbclause-&gt;exchanged words about</li>
+        <li>pe_exchangeverbclause-&gt;conversed about</li>
+        <li>pe_topic-&gt;proofing buildings for [pe_disaster]</li>
+        <li>pe_topic-&gt;constructing [pe_object]</li>
+        <li>pe_topic-&gt;the best type of [pe_tool]</li>
+        <li>pe_topic-&gt;roofing tiles</li>
+        <li>pe_topic-&gt;not smashing the fingers when building</li>
+        <li>pe_topic-&gt;their favorite architechural constructs in the world</li>
+        <li>pe_disaster-&gt;earthquakes</li>
+        <li>pe_disaster-&gt;tsunamis</li>
+        <li>pe_disaster-&gt;tornadoes</li>
+        <li>pe_disaster-&gt;volcanic eruptions</li>
+        <li>pe_disaster-&gt;nuclear fallout</li>
+        <li>pe_disaster-&gt;incoming petulant royals</li>
+        <li>pe_object-&gt;turrets</li>
+        <li>pe_object-&gt;walls</li>
+        <li>pe_object-&gt;beds</li>
+        <li>pe_object-&gt;floors</li>
+        <li>pe_object-&gt;furniture</li>
+        <li>pe_object-&gt;lighting</li>
+        <li>pe_tool-&gt;hammer</li>
+        <li>pe_tool-&gt;wrench</li>
+        <li>pe_tool-&gt;spanner</li>
+        <li>pe_tool-&gt;sickle</li>
+        <li>pe_tool-&gt;handsaw</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
-
   <RulePackDef>
     <defName>PawnEducation_Mining</defName>
     <rulePack>
       <rulesStrings>
-        <li>sent->[sentence].</li>
-
-        <li>sentence->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [exchangeverbclause] [topic]</li>
-        <li>sentence->[INITIATOR_nameDef] [exchangeverbclause] [topic] with [RECIPIENT_nameDef]</li>
-
-        <li>exchangeverbclause->discussed</li>
-        <li>exchangeverbclause->talked about the finer points of</li>
-        <li>exchangeverbclause->had a debate about</li>
-        <li>exchangeverbclause->argued civilly about</li>
-        <li>exchangeverbclause->lectured about</li>
-
-        <li>topic->mining [resource]</li>
-        <li>topic->picking at [resource]</li>
-        <li>topic->techniques on finding [resource]</li>
-        <li>topic->refining [resource]</li>
-        <li>topic->digging for [resource]</li>
-        <li>topic->using pigs to sniff out [resource]</li>
-        
-        <li>resource->jade</li>
-        <li>resource->gold</li>
-        <li>resource->silver</li>
-        <li>resource->plasteel</li>
-        <li>resource->steel</li>
-        <li>resource->uranium</li>
-        <li>resource->slate</li>
-        <li>resource->granite</li>
+        <li>sent-&gt;[sentence].</li>
+        <li>sentence-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] [pe_exchangeverbclause] [pe_topic]</li>
+        <li>sentence-&gt;[INITIATOR_nameDef] [pe_exchangeverbclause] [pe_topic] with [RECIPIENT_nameDef]</li>
+        <li>pe_exchangeverbclause-&gt;discussed</li>
+        <li>pe_exchangeverbclause-&gt;talked about the finer points of</li>
+        <li>pe_exchangeverbclause-&gt;had a debate about</li>
+        <li>pe_exchangeverbclause-&gt;argued civilly about</li>
+        <li>pe_exchangeverbclause-&gt;lectured about</li>
+        <li>pe_exchangeverbclause-&gt;exchanged words about</li>
+        <li>pe_exchangeverbclause-&gt;conversed about</li>
+        <li>pe_topic-&gt;mining [pe_resource]</li>
+        <li>pe_topic-&gt;picking at [pe_resource]</li>
+        <li>pe_topic-&gt;techniques on finding [pe_resource]</li>
+        <li>pe_topic-&gt;refining [pe_resource]</li>
+        <li>pe_topic-&gt;digging for [pe_resource]</li>
+        <li>pe_topic-&gt;using pigs to sniff out [pe_resource]</li>
+        <li>pe_topic-&gt;blasting for [pe_resource]</li>
+        <li>pe_resource-&gt;jade</li>
+        <li>pe_resource-&gt;gold</li>
+        <li>pe_resource-&gt;silver</li>
+        <li>pe_resource-&gt;plasteel</li>
+        <li>pe_resource-&gt;steel</li>
+        <li>pe_resource-&gt;uranium</li>
+        <li>pe_resource-&gt;slate</li>
+        <li>pe_resource-&gt;granite</li>
+        <li>pe_resource-&gt;marble</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
-
   <RulePackDef>
     <defName>PawnEducation_Cooking</defName>
     <rulePack>
       <rulesStrings>
-        <li>sent->[sentence].</li>
-
-        <li>sentence->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [exchangeverbclause] [topic]</li>
-        <li>sentence->[INITIATOR_nameDef] [exchangeverbclause] [topic] with [RECIPIENT_nameDef]</li>
-
-        <li>exchangeverbclause->discussed</li>
-        <li>exchangeverbclause->talked about the finer points of</li>
-        <li>exchangeverbclause->had a debate about</li>
-        <li>exchangeverbclause->argued civilly about</li>
-        <li>exchangeverbclause->lectured about</li>
-
-        <li>topic->cooking [meal]</li>
-        <li>topic->preparing [meal]</li>
-        <li>topic->harvesting [ingredient]</li>
-        <li>topic->farming [ingredient]</li>
-        <li>topic->how [ingredient] and [ingredient] taste sublime when mixed together</li>
-
-        <li>meal->[meat] en croute</li>
-        <li>meal->[meat] meatballs</li>
-        <li>meal->corn on the cob</li>
-        <li>meal->steamed [Vegetable]</li>
-        <li>meal->sliced [meat] with sautéed [Vegetable] au jus</li>
-        <li>meal->pickled [Vegetable] over braised [meat]</li>
-        <li>meal->pizza with [ingredient] and [ingredient]</li>
-
-        <li>ingredient->[meat] meat</li>
-        <li>ingredient->[Vegetable]</li>
-
-        <li>meat->human</li>
-        <li>meat->muffalo</li>
-        <li>meat->warg</li>
-        <li>meat->pork</li>
-        <li>meat->chicken</li>
-        <li>meat->cat</li>
-        <li>meat->dog</li>
-        <li>meat->insect</li>
-        <li>meat->thrumbo</li>
+        <li>sent-&gt;[sentence].</li>
+        <li>sentence-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] [pe_exchangeverbclause] [pe_topic]</li>
+        <li>sentence-&gt;[INITIATOR_nameDef] [pe_exchangeverbclause] [pe_topic] with [RECIPIENT_nameDef]</li>
+        <li>pe_exchangeverbclause-&gt;discussed</li>
+        <li>pe_exchangeverbclause-&gt;talked about the finer points of</li>
+        <li>pe_exchangeverbclause-&gt;had a debate about</li>
+        <li>pe_exchangeverbclause-&gt;argued civilly about</li>
+        <li>pe_exchangeverbclause-&gt;lectured about</li>
+        <li>pe_exchangeverbclause-&gt;exchanged words about</li>
+        <li>pe_exchangeverbclause-&gt;conversed about</li>
+        <li>pe_topic-&gt;cooking [pe_meal]</li>
+        <li>pe_topic-&gt;preparing [pe_meal]</li>
+        <li>pe_topic-&gt;harvesting [pe_ingredient]</li>
+        <li>pe_topic-&gt;farming [pe_ingredient]</li>
+        <li>pe_topic-&gt;how [pe_ingredient] and [pe_ingredient] taste sublime when mixed together</li>
+        <li>pe_meal-&gt;[pe_meat] en croute</li>
+        <li>pe_meal-&gt;[pe_meat] pe_meatballs</li>
+        <li>pe_meal-&gt;corn on the cob</li>
+        <li>pe_meal-&gt;steamed [Vegetable]</li>
+        <li>pe_meal-&gt;sliced [pe_meat] with sautéed [Vegetable] au jus</li>
+        <li>pe_meal-&gt;pickled [Vegetable] over braised [pe_meat]</li>
+        <li>pe_meal-&gt;pizza with [pe_ingredient] and [pe_ingredient]</li>
+        <li>pe_meal-&gt;[pe_ingredient] pie</li>
+        <li>pe_ingredient-&gt;[pe_meat] meat</li>
+        <li>pe_ingredient-&gt;[Vegetable]</li>
+        <li>pe_meat-&gt;human</li>
+        <li>pe_meat-&gt;muffalo</li>
+        <li>pe_meat-&gt;warg</li>
+        <li>pe_meat-&gt;pork</li>
+        <li>pe_meat-&gt;chicken</li>
+        <li>pe_meat-&gt;cat</li>
+        <li>pe_meat-&gt;dog</li>
+        <li>pe_meat-&gt;insect</li>
+        <li>pe_meat-&gt;thrumbo</li>
+        <li>pe_meat-&gt;ground royal</li>
+        <li>pe_meat-&gt;camel</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
-
   <RulePackDef>
     <defName>PawnEducation_Plants</defName>
     <rulePack>
       <rulesStrings>
-        <li>sent->[sentence].</li>
-
-        <li>sentence->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [exchangeverbclause] [topic]</li>
-        <li>sentence->[INITIATOR_nameDef] [exchangeverbclause] [topic] with [RECIPIENT_nameDef]</li>
-
-        <li>exchangeverbclause->discussed</li>
-        <li>exchangeverbclause->talked about the finer points of</li>
-        <li>exchangeverbclause->had a debate about</li>
-        <li>exchangeverbclause->argued civilly about</li>
-        <li>exchangeverbclause->lectured about</li>
-
-        <li>topic->harvesting [Vegetable]s</li>
-        <li>topic->farming [Vegetable]s</li>
-        <li>topic->growing [Vegetable]s</li>
-        <li>topic->telling bedtime stories to [Vegetable]s to help them grow faster</li>
-        <li>topic->what fertilizers are best to help [Vegetable]s grow</li>
-        <li>topic->the best soil conditions for [Vegetable]s</li>
+        <li>sent-&gt;[sentence].</li>
+        <li>sentence-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] [pe_exchangeverbclause] [pe_topic]</li>
+        <li>sentence-&gt;[INITIATOR_nameDef] [pe_exchangeverbclause] [pe_topic] with [RECIPIENT_nameDef]</li>
+        <li>pe_exchangeverbclause-&gt;discussed</li>
+        <li>pe_exchangeverbclause-&gt;talked about the finer points of</li>
+        <li>pe_exchangeverbclause-&gt;had a debate about</li>
+        <li>pe_exchangeverbclause-&gt;argued civilly about</li>
+        <li>pe_exchangeverbclause-&gt;lectured about</li>
+        <li>pe_exchangeverbclause-&gt;exchanged words about</li>
+        <li>pe_exchangeverbclause-&gt;conversed about</li>
+        <li>pe_topic-&gt;harvesting [Vegetable]s</li>
+        <li>pe_topic-&gt;farming [Vegetable]s</li>
+        <li>pe_topic-&gt;growing [Vegetable]s</li>
+        <li>pe_topic-&gt;telling bedtime stories to [Vegetable]s to help them grow faster</li>
+        <li>pe_topic-&gt;what fertilizers are best to help [Vegetable]s grow</li>
+        <li>pe_topic-&gt;the best soil conditions for [Vegetable]s</li>
+        <li>pe_topic-&gt;the best scarecrow</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
-
   <RulePackDef>
     <defName>PawnEducation_Animals</defName>
     <rulePack>
       <rulesStrings>
-        <li>sent->[sentence].</li>
-
-        <li>sentence->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [exchangeverbclause] [topic]</li>
-        <li>sentence->[INITIATOR_nameDef] [exchangeverbclause] [topic] with [RECIPIENT_nameDef]</li>
-
-        <li>exchangeverbclause->discussed</li>
-        <li>exchangeverbclause->talked about the finer points of</li>
-        <li>exchangeverbclause->had a debate about</li>
-        <li>exchangeverbclause->argued civilly about</li>
-        <li>exchangeverbclause->lectured about</li>
-
-        <li>topic->taming [Animal]s</li>
-        <li>topic->petting [Animal]s</li>
-        <li>topic->shearing the fur of [Animal]s</li>
-        <li>topic->riding on the back of [Animal]s</li>
-        <li>topic->exerting dominance over [Animal]s</li>
-        <li>topic->showing love and respect towards [Animal]s</li>
-        <li>topic->adopting [Animal]s into [RECIPIENT_possesive] family</li>
+        <li>sent-&gt;[sentence].</li>
+        <li>sentence-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] [pe_exchangeverbclause] [pe_topic]</li>
+        <li>sentence-&gt;[INITIATOR_nameDef] [pe_exchangeverbclause] [pe_topic] with [RECIPIENT_nameDef]</li>
+        <li>pe_exchangeverbclause-&gt;discussed</li>
+        <li>pe_exchangeverbclause-&gt;talked about the finer points of</li>
+        <li>pe_exchangeverbclause-&gt;had a debate about</li>
+        <li>pe_exchangeverbclause-&gt;argued civilly about</li>
+        <li>pe_exchangeverbclause-&gt;lectured about</li>
+        <li>pe_exchangeverbclause-&gt;exchanged words about</li>
+        <li>pe_exchangeverbclause-&gt;conversed about</li>
+        <li>pe_topic-&gt;taming [Animal]s</li>
+        <li>pe_topic-&gt;petting [Animal]s</li>
+        <li>pe_topic-&gt;shearing the fur of [Animal]s</li>
+        <li>pe_topic-&gt;riding on the back of [Animal]s</li>
+        <li>pe_topic-&gt;exerting dominance over [Animal]s</li>
+        <li>pe_topic-&gt;showing love and respect towards [Animal]s</li>
+        <li>pe_topic-&gt;adopting [Animal]s into [RECIPIENT_possesive] family</li>
+        <li>pe_topic-&gt;the intricacies of [Animal] behavior</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
-
   <RulePackDef>
     <defName>PawnEducation_Crafting</defName>
     <rulePack>
       <rulesStrings>
-        <li>sent->[sentence].</li>
-
-        <li>sentence->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [exchangeverbclause] [topic]</li>
-        <li>sentence->[INITIATOR_nameDef] [exchangeverbclause] [topic] with [RECIPIENT_nameDef]</li>
-
-        <li>exchangeverbclause->discussed</li>
-        <li>exchangeverbclause->talked about the finer points of</li>
-        <li>exchangeverbclause->had a debate about</li>
-        <li>exchangeverbclause->argued civilly about</li>
-        <li>exchangeverbclause->lectured about</li>
-
-        <li>topic->sewing [Apparel]s</li>
-        <li>topic->the type of [Apparel] that is fashionable right now</li>
-        <li>topic->forging [Weapon]s</li>
-        <li>topic->how to craft the most deadly [Weapon] possible</li>
-        <li>topic->stitching patterns that make [Apparel]s more durable</li>
-        <li>topic->the advantages of [Weapon]s, compared to [Weapon]s</li>
-        <li>topic->the advantages of [Apparel]s, compared to [Apparel]s</li>
+        <li>sent-&gt;[sentence].</li>
+        <li>sentence-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] [pe_exchangeverbclause] [pe_topic]</li>
+        <li>sentence-&gt;[INITIATOR_nameDef] [pe_exchangeverbclause] [pe_topic] with [RECIPIENT_nameDef]</li>
+        <li>pe_exchangeverbclause-&gt;discussed</li>
+        <li>pe_exchangeverbclause-&gt;talked about the finer points of</li>
+        <li>pe_exchangeverbclause-&gt;had a debate about</li>
+        <li>pe_exchangeverbclause-&gt;argued civilly about</li>
+        <li>pe_exchangeverbclause-&gt;lectured about</li>
+        <li>pe_exchangeverbclause-&gt;exchanged words about</li>
+        <li>pe_exchangeverbclause-&gt;conversed about</li>
+        <li>pe_topic-&gt;sewing [Apparel]s</li>
+        <li>pe_topic-&gt;the type of [Apparel] that is fashionable right now</li>
+        <li>pe_topic-&gt;forging [Weapon]s</li>
+        <li>pe_topic-&gt;how to craft the most deadly [Weapon] possible</li>
+        <li>pe_topic-&gt;stitching patterns that make [Apparel]s more durable</li>
+        <li>pe_topic-&gt;the advantages of [Weapon]s, compared to [Weapon]s</li>
+        <li>pe_topic-&gt;the advantages of [Apparel]s, compared to [Apparel]s</li>
+        <li>pe_topic-&gt;using moulds to save time and resources</li>
+        <li>pe_topic-&gt;whether [Apparel] protects well against [Weapon]</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
-
   <RulePackDef>
     <defName>PawnEducation_Artistic</defName>
     <rulePack>
       <rulesStrings>
-        <li>sent->[sentence].</li>
-
-        <li>sentence->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [exchangeverbclause] [topic]</li>
-        <li>sentence->[INITIATOR_nameDef] [exchangeverbclause] [topic] with [RECIPIENT_nameDef]</li>
-
-        <li>exchangeverbclause->discussed</li>
-        <li>exchangeverbclause->talked about the finer points of</li>
-        <li>exchangeverbclause->had a debate about</li>
-        <li>exchangeverbclause->argued civilly about</li>
-        <li>exchangeverbclause->lectured about</li>
-
-        <li>topic->sculpting [resource] into immaculate structures</li>
-        <li>topic->whether modern art or classical art is more appealing</li>
-        <li>topic->inscribing [resource] letters onto [resource] structures</li>
-        <li>topic->inspiring emotions with varied colors</li>
-
-        <li>resource->jade</li>
-        <li>resource->gold</li>
-        <li>resource->silver</li>
-        <li>resource->plasteel</li>
-        <li>resource->steel</li>
-        <li>resource->uranium</li>
-        <li>resource->slate</li>
-        <li>resource->granite</li>
+        <li>sent-&gt;[sentence].</li>
+        <li>sentence-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] [pe_exchangeverbclause] [pe_topic]</li>
+        <li>sentence-&gt;[INITIATOR_nameDef] [pe_exchangeverbclause] [pe_topic] with [RECIPIENT_nameDef]</li>
+        <li>pe_exchangeverbclause-&gt;discussed</li>
+        <li>pe_exchangeverbclause-&gt;talked about the finer points of</li>
+        <li>pe_exchangeverbclause-&gt;had a debate about</li>
+        <li>pe_exchangeverbclause-&gt;argued civilly about</li>
+        <li>pe_exchangeverbclause-&gt;lectured about</li>
+        <li>pe_exchangeverbclause-&gt;exchanged words about</li>
+        <li>pe_exchangeverbclause-&gt;conversed about</li>
+        <li>pe_topic-&gt;sculpting [pe_resource] into immaculate structures</li>
+        <li>pe_topic-&gt;whether modern art or classical art is more appealing</li>
+        <li>pe_topic-&gt;inscribing [pe_resource] letters onto [pe_resource] structures</li>
+        <li>pe_topic-&gt;inspiring emotions with varied colors</li>
+        <li>pe_topic-&gt;making afros out of steel wool</li>
+        <li>pe_topic-&gt;the best materials for making pigments</li>
+        <li>pe_resource-&gt;jade</li>
+        <li>pe_resource-&gt;gold</li>
+        <li>pe_resource-&gt;silver</li>
+        <li>pe_resource-&gt;plasteel</li>
+        <li>pe_resource-&gt;steel</li>
+        <li>pe_resource-&gt;uranium</li>
+        <li>pe_resource-&gt;slate</li>
+        <li>pe_resource-&gt;granite</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
-
   <RulePackDef>
     <defName>PawnEducation_Medicine</defName>
     <rulePack>
       <rulesStrings>
-        <li>sent->[sentence].</li>
-
-        <li>sentence->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [exchangeverbclause] [topic]</li>
-        <li>sentence->[INITIATOR_nameDef] [exchangeverbclause] [topic] with [RECIPIENT_nameDef]</li>
-
-        <li>exchangeverbclause->discussed</li>
-        <li>exchangeverbclause->talked about the finer points of</li>
-        <li>exchangeverbclause->had a debate about</li>
-        <li>exchangeverbclause->argued civilly about</li>
-        <li>exchangeverbclause->lectured about</li>
-
-        <li>topic->amputating [BodyPart] without ample blood loss</li>
-        <li>topic->whether smokeleaf or psychoid is the better anesthesia</li>
-        <li>topic->injecting steroids into [BodyPart] for better gains</li>
-        <li>topic->surgically repairing [BodyPart]</li>
-        <li>topic->replacing [BodyPart] with a bionic counterpart</li>
-        <li>topic->cauterizing wounds on [BodyPart]</li>
-        <li>topic->preventing and curing diseases</li>       
+        <li>sent-&gt;[sentence].</li>
+        <li>sentence-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] [pe_exchangeverbclause] [pe_topic]</li>
+        <li>sentence-&gt;[INITIATOR_nameDef] [pe_exchangeverbclause] [pe_topic] with [RECIPIENT_nameDef]</li>
+        <li>pe_exchangeverbclause-&gt;discussed</li>
+        <li>pe_exchangeverbclause-&gt;talked about the finer points of</li>
+        <li>pe_exchangeverbclause-&gt;had a debate about</li>
+        <li>pe_exchangeverbclause-&gt;argued civilly about</li>
+        <li>pe_exchangeverbclause-&gt;lectured about</li>
+        <li>pe_exchangeverbclause-&gt;exchanged words about</li>
+        <li>pe_exchangeverbclause-&gt;conversed about</li>
+        <li>pe_topic-&gt;amputating [BodyPart] without ample blood loss</li>
+        <li>pe_topic-&gt;whether smokeleaf or psychoid is the better anesthesia</li>
+        <li>pe_topic-&gt;injecting steroids into [BodyPart] for better gains</li>
+        <li>pe_topic-&gt;surgically repairing [BodyPart]</li>
+        <li>pe_topic-&gt;replacing [BodyPart] with a bionic counterpart</li>
+        <li>pe_topic-&gt;cauterizing wounds on [BodyPart]</li>
+        <li>pe_topic-&gt;preventing and curing diseases</li>
+        <li>pe_topic-&gt;preventing the spread of respitory infection by wearing masks and maintaining social distancing</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
-
   <RulePackDef>
     <defName>PawnEducation_Social</defName>
     <rulePack>
       <rulesStrings>
-        <li>sent->[sentence].</li>
-
-        <li>sentence->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [exchangeverbclause] [topic]</li>
-        <li>sentence->[INITIATOR_nameDef] [exchangeverbclause] [topic] with [RECIPIENT_nameDef]</li>
-
-        <li>exchangeverbclause->discussed</li>
-        <li>exchangeverbclause->talked about the finer points of</li>
-        <li>exchangeverbclause->had a debate about</li>
-        <li>exchangeverbclause->argued civilly about</li>
-        <li>exchangeverbclause->lectured about</li>
-
-        <li>topic->giving a raucous speech</li>
-        <li>topic->convincing [Enemies] to defect</li>
-        <li>topic->inspiring others to fight harder</li>
-        <li>topic->entertaining guests</li>
-        <li>topic->eloquent speech patterns</li>
-        <li>topic->telling a convincing lie</li>
+        <li>sent-&gt;[sentence].</li>
+        <li>sentence-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] [pe_exchangeverbclause] [pe_topic]</li>
+        <li>sentence-&gt;[INITIATOR_nameDef] [pe_exchangeverbclause] [pe_topic] with [RECIPIENT_nameDef]</li>
+        <li>pe_exchangeverbclause-&gt;discussed</li>
+        <li>pe_exchangeverbclause-&gt;talked about the finer points of</li>
+        <li>pe_exchangeverbclause-&gt;had a debate about</li>
+        <li>pe_exchangeverbclause-&gt;argued civilly about</li>
+        <li>pe_exchangeverbclause-&gt;lectured about</li>
+        <li>pe_exchangeverbclause-&gt;exchanged words about</li>
+        <li>pe_exchangeverbclause-&gt;conversed about</li>
+        <li>pe_topic-&gt;giving a raucous speech</li>
+        <li>pe_topic-&gt;convincing [Enemies] to defect</li>
+        <li>pe_topic-&gt;inspiring others to fight harder</li>
+        <li>pe_topic-&gt;entertaining guests</li>
+        <li>pe_topic-&gt;eloquent speech patterns</li>
+        <li>pe_topic-&gt;telling a convincing lie</li>
+        <li>pe_topic-&gt;the advantages of having tiny hands</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
-
   <RulePackDef>
     <defName>PawnEducation_Intellectual</defName>
     <rulePack>
       <rulesStrings>
-        <li>sent->[sentence].</li>
-
-        <li>sentence->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [exchangeverbclause] [topic]</li>
-        <li>sentence->[INITIATOR_nameDef] [exchangeverbclause] [topic] with [RECIPIENT_nameDef]</li>
-
-        <li>exchangeverbclause->discussed</li>
-        <li>exchangeverbclause->talked about the finer points of</li>
-        <li>exchangeverbclause->had a debate about</li>
-        <li>exchangeverbclause->argued civilly about</li>
-        <li>exchangeverbclause->lectured about</li>
-
-        <li>topic->the Scientific Method</li>
-        <li>topic->coming to logical conclusions</li>
-        <li>topic->dissecting the anatomy of [Animal]s</li>
-        <li>topic->deductive reasoning</li>
-        <li>topic->why the green goo and the blue goo should not be mixed together</li>
-        <li>topic->formatting thesis papers</li>
-        <li>topic->presenting discoveries to peers</li>
+        <li>sent-&gt;[sentence].</li>
+        <li>sentence-&gt;[INITIATOR_nameDef] and [RECIPIENT_nameDef] [pe_exchangeverbclause] [pe_topic]</li>
+        <li>sentence-&gt;[INITIATOR_nameDef] [pe_exchangeverbclause] [pe_topic] with [RECIPIENT_nameDef]</li>
+        <li>pe_exchangeverbclause-&gt;discussed</li>
+        <li>pe_exchangeverbclause-&gt;talked about the finer points of</li>
+        <li>pe_exchangeverbclause-&gt;had a debate about</li>
+        <li>pe_exchangeverbclause-&gt;argued civilly about</li>
+        <li>pe_exchangeverbclause-&gt;lectured about</li>
+        <li>pe_exchangeverbclause-&gt;exchanged words about</li>
+        <li>pe_exchangeverbclause-&gt;conversed about</li>
+        <li>pe_topic-&gt;the Scientific Method</li>
+        <li>pe_topic-&gt;coming to logical conclusions</li>
+        <li>pe_topic-&gt;dissecting the anatomy of [Animal]s</li>
+        <li>pe_topic-&gt;deductive reasoning</li>
+        <li>pe_topic-&gt;why the green goo and the blue goo shouldn't be mixed together</li>
+        <li>pe_topic-&gt;formatting thesis papers</li>
+        <li>pe_topic-&gt;presenting discoveries to peers</li>
+        <li>pe_topic-&gt;the mysteries of the cosmos</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
@@ -380,67 +380,62 @@
     <defName>PawnEducation_NoPassionLearn</defName>
     <rulePack>
       <rulesStrings>
-        <li>sent->[sentence].</li>
-
-        <li>sentence->[RECIPIENT_nameDef] [reception]</li>
-
-        <li>reception->was not at all interested</li>
-        <li>reception->nodded off during the discussion</li>
-        <li>reception->fell asleep while [INITIATOR_nameDef] was lecturing</li>
-        <li>reception->did not pay any attention</li>
-        <li>reception->couldn't care any less</li>
-        <li>reception->was not amused</li>
+        <li>sent-&gt;[sentence].</li>
+        <li>sentence-&gt;[RECIPIENT_nameDef] [reception]</li>
+        <li>reception-&gt;wasn't at all interested</li>
+        <li>reception-&gt;nodded off during the discussion</li>
+        <li>reception-&gt;fell asleep while [INITIATOR_nameDef] was lecturing</li>
+        <li>reception-&gt;didn't pay any attention</li>
+        <li>reception-&gt;couldn't care any less</li>
+        <li>reception-&gt;wasn't amused</li>
+        <li>reception-&gt;was very bored</li>
+        <li>reception-&gt;yawned insultingly</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
-
   <RulePackDef>
     <defName>PawnEducation_PassionLearn</defName>
     <rulePack>
       <rulesStrings>
-        <li>sent->[sentence].</li>
-
-        <li>sentence->[RECIPIENT_nameDef] [reception]</li>
-
-        <li>reception->was a bit interested</li>
-        <li>reception->was somewhat receptive to the lesson</li>
-        <li>reception->wrote a few things down</li>
-        <li>reception->asked a couple questions</li>
-        <li>reception->watched with piqued interest</li>
+        <li>sent-&gt;[sentence].</li>
+        <li>sentence-&gt;[RECIPIENT_nameDef] [reception]</li>
+        <li>reception-&gt;was a bit interested</li>
+        <li>reception-&gt;was somewhat receptive to the lesson</li>
+        <li>reception-&gt;wrote a few things down</li>
+        <li>reception-&gt;asked a couple questions</li>
+        <li>reception-&gt;watched with piqued interest</li>
+        <li>reception-&gt;learned a few things</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
-
   <RulePackDef>
     <defName>PawnEducation_BurningPassionLearn</defName>
     <rulePack>
       <rulesStrings>
-        <li>sent->[sentence].</li>
-
-        <li>sentence->[RECIPIENT_nameDef] [reception]</li>
-
-        <li>reception-> listened intently</li>
-        <li>reception-> was all ears</li>
-        <li>reception->wrote down everything [INITIATOR_nameDef] said in [RECIPIENT_possesive] diary</li>
-        <li>reception->was extremely interested</li>
-        <li>reception->did not blink the entire time</li>
+        <li>sent-&gt;[sentence].</li>
+        <li>sentence-&gt;[RECIPIENT_nameDef] [reception]</li>
+        <li>reception-&gt;listened intently</li>
+        <li>reception-&gt;was all ears</li>
+        <li>reception-&gt;wrote down everything [INITIATOR_nameDef] said in [RECIPIENT_possesive] diary</li>
+        <li>reception-&gt;was extremely interested</li>
+        <li>reception-&gt;did not blink the entire time</li>
+        <li>reception-&gt;learned quite a bit</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
-
   <RulePackDef>
     <defName>PawnEducation_MasterLearn</defName>
     <rulePack>
       <rulesStrings>
-        <li>sent->[sentence].</li>
-
-        <li>sentence->[RECIPIENT_nameDef] [reception]</li>
-
-        <li>reception->was floored by [INITIATOR_nameDef]'s knowledge of the subject</li>
-        <li>reception->demanded [INITIATOR_nameDef] take some money for the lesson</li>
-        <li>reception->gave [INITIATOR_nameDef] a standing ovation</li>
-        <li>reception->nearly pooped [RECIPIENT_possesive] pants in excitement</li>
-        <li>reception->was inspired to explore new heights</li>
+        <li>sent-&gt;[sentence].</li>
+        <li>sentence-&gt;[RECIPIENT_nameDef] [reception]</li>
+        <li>reception-&gt;was floored by [INITIATOR_nameDef]'s knowledge of the subject</li>
+        <li>reception-&gt;demanded [INITIATOR_nameDef] take some money for the lesson</li>
+        <li>reception-&gt;gave [INITIATOR_nameDef] a standing ovation</li>
+        <li>reception-&gt;nearly pooped [RECIPIENT_possesive] pants in excitement</li>
+        <li>reception-&gt;was inspired to explore new heights</li>
+        <li>reception-&gt;learned a great many things</li>
+        <li>reception-&gt;was awed by the once in a lifetime lesson</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>

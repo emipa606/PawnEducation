@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModSyncNinjaData>
-  <ID>11343c18-17d1-406e-9016-6efb258dd3ec</ID>
+  <ID>a7d96d54-d186-486d-8ac9-f5c4157eb60f</ID>
   <ModName>Pawn Education (Continued)</ModName>
-  <Version>1.0.0.0</Version>
+  <Version>1.0.1.0</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>emipa606</Owner>
@@ -12,6 +12,8 @@
     <Branch>master</Branch>
   </Host>
 </ModSyncNinjaData>
+
+
 
 
 

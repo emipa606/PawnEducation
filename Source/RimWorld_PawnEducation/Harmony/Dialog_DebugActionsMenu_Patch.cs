@@ -22,10 +22,10 @@ namespace PawnEducation.Harmony
 
         private static void DoListingItems_Mod(Dialog_DebugActionsMenu __instance)
         {
-            Action clear = new Action(DebugAction_ClearCraftThoughts);
-            Action write = new Action(DebugAction_WriteModSettings);
+            var clear = new Action(DebugAction_ClearCraftThoughts);
+            var write = new Action(DebugAction_WriteModSettings);
 
-            Traverse t = Traverse.Create(__instance);
+            var t = Traverse.Create(__instance);
             t.Method("DoGap").GetValue();
             t.Method("DoLabel", "Mods - Misc").GetValue();
             t.Method("DebugAction", "Clear Play Log", clear).GetValue();

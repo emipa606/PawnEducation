@@ -1,0 +1,27 @@
+A mod that allows pawns to educate each other. 
+
+[h1]Description[/h1]
+A mod that allows pawns to educate each other. The higher the passion for the subject, the higher the odds of discussion and the more experience is shared.
+When the teacher has skill level 20, something special may happen... :)
+  
+Savegame compatible. 
+
+Should not conflict with any mods, except possibly others that make edits to the Inspect pane.
+
+[h1]Uninstalling[/h1]
+1. Load your existing save
+2. Put the game into 'pause' mode
+3. Click the debug action 'Clear Play Log'
+4. Make a new save
+5. Disable/unsubcribe from Pawn Education
+
+
+[h1]Dependencies[/h1]
+None
+
+[h1]Synergy[/h1]
+works well with Orion's Hospitality mod - https://steamcommunity.com/sharedfiles/filedetails/?id=753498552
+
+[h1]Honourable Mentions[/h1]
+pardeike/Harmony - https://github.com/pardeike/Harmony/
+Mlie, for updating the mod for 1.1

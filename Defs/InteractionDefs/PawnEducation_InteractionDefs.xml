@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <InteractionDef Class="PawnEducation.EducationInteractionDef">
     <defName>PawnEducation</defName>
@@ -11,7 +11,7 @@
       <rulesStrings>
         <!--do a blank logentry. this avoids a nasty null reference which occurs when an interaction doesn't have a r_logentry, and ultimately allows us to defer all the grammar resolution to the code-->
         <!--this means we don't need to pollute the InteractionDef pool with a different 'education interaction' per skill-->
-        <li>r_logentry-></li>
+        <li>r_logentry-&gt;</li>
       </rulesStrings>
     </logRulesInitiator>
   </InteractionDef>

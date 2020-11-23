@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThoughtDef>
     <defName>PawnEducation_PassionTeach</defName>
@@ -7,7 +7,7 @@
     <stackedEffectMultiplier>0.75</stackedEffectMultiplier>
     <stackLimit>10</stackLimit>
     <stackLimitForSameOtherPawn>5</stackLimitForSameOtherPawn>
-	 <maxCumulatedOpinionOffset>25</maxCumulatedOpinionOffset>
+    <maxCumulatedOpinionOffset>25</maxCumulatedOpinionOffset>
     <nullifyingTraits>
       <li>Psychopath</li>
       <li>TooSmart</li>
@@ -37,7 +37,6 @@
       </li>
     </stages>
   </ThoughtDef>
-  
   <ThoughtDef>
     <defName>PawnEducation_PassionLearn</defName>
     <thoughtClass>Thought_MemorySocial</thoughtClass>
@@ -75,7 +74,6 @@
       </li>
     </stages>
   </ThoughtDef>
-
   <ThoughtDef>
     <defName>PawnEducation_BurningPassionTeach</defName>
     <thoughtClass>Thought_MemorySocial</thoughtClass>
@@ -113,7 +111,6 @@
       </li>
     </stages>
   </ThoughtDef>
-
   <ThoughtDef>
     <defName>PawnEducation_BurningPassionLearn</defName>
     <thoughtClass>Thought_MemorySocial</thoughtClass>
@@ -151,7 +148,6 @@
       </li>
     </stages>
   </ThoughtDef>
-
   <ThoughtDef>
     <defName>PawnEducation_MasterLearn</defName>
     <thoughtClass>Thought_MemorySocial</thoughtClass>
