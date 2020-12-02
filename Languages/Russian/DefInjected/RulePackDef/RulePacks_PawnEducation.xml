@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<PawnEducation_Shooting.rulePack.rulesStrings>
+		<li>sent->[sentence].</li>
+
+		<li>sentence->[INITIATOR_nameDef] и [RECIPIENT_nameDef] [pe_exchangeverbclause] [pe_topic]</li>
+
+		<li>pe_exchangeverbclause->ведут разговор о</li>
+		<li>pe_exchangeverbclause->говорят о</li>
+		<li>pe_exchangeverbclause->спорят о</li>
+		<li>pe_exchangeverbclause->ведут спор о</li>
+		<li>pe_exchangeverbclause->рассуждают о</li>
+		<li>pe_exchangeverbclause->беседуют о</li>
+
+		<li>pe_topic->нюансах охоты на [AnimalBadass_plural_gen]</li>
+		<li>pe_topic->позиции для стрельбы во время защиты от нападения [pe_target]</li>
+		<li>pe_topic->пристрелке прицелов</li>
+		<li>pe_topic->чистке стволов</li>
+		<li>pe_topic->запасах оружия</li>
+		<li>pe_topic->калибрах боеприпасов</li>
+		<li>pe_topic->технике быстрого натяжения</li>
+
+		<li>pe_target->[AnimalBadass_plural_gen]</li>
+		<li>pe_target->[Enemies_gen]</li>
+	</PawnEducation_Shooting.rulePack.rulesStrings>
+
+	<PawnEducation_Melee.rulePack.rulesStrings>
+		<li>sent->[sentence].</li>
+
+		<li>sentence->[INITIATOR_nameDef] и [RECIPIENT_nameDef] [pe_exchangeverbclause][pe_topic]</li>
+
+		<li>pe_exchangeverbclause->ведут разговор о</li>
+		<li>pe_exchangeverbclause->говорят о</li>
+		<li>pe_exchangeverbclause->спорят о</li>
+		<li>pe_exchangeverbclause->ведут спор о</li>
+		<li>pe_exchangeverbclause->рассуждают о</li>
+		<li>pe_exchangeverbclause->беседуют о</li>
+
+		<li>pe_topic-> том, как сражается [pe_target]</li>
+		<li>pe_topic->б избиении [pe_oftarget] палкой</li>
+		<li>pe_topic->б обезглавливании [pe_oftarget]</li>
+		<li>pe_topic->б изувечении [pe_oftarget]</li>
+		<li>pe_topic-> [pe_style] против [pe_style]</li>
+
+		<li>pe_target->[Animal]</li>
+		<li>pe_target->[Enemy]</li>
+
+		<li>pe_oftarget->[AnimalBadass_gen]</li>
+		<li>pe_oftarget->[Enemies_gen]</li>
+		<li>pe_oftarget->врага</li>
+		<li>pe_oftarget->противника</li>
+
+		<li>pe_style->тхэквондо</li>
+		<li>pe_style->муай-тай</li>
+		<li>pe_style->каратэ</li>
+		<li>pe_style->джиу-джитсу</li>
+		<li>pe_style->хапкидо</li>
+		<li>pe_style->реслинг</li>
+		<li>pe_style->крав-мага</li>
+	</PawnEducation_Melee.rulePack.rulesStrings>
+
+	<PawnEducation_Construction.rulePack.rulesStrings>
+		<li>sent->[sentence].</li>
+
+		<li>sentence->[INITIATOR_nameDef] и [RECIPIENT_nameDef] [pe_exchangeverbclause] [pe_topic]</li>
+
+		<li>pe_exchangeverbclause->ведут разговор о</li>
+		<li>pe_exchangeverbclause->говорят о</li>
+		<li>pe_exchangeverbclause->спорят о</li>
+		<li>pe_exchangeverbclause->ведут спор о</li>
+		<li>pe_exchangeverbclause->рассуждают о</li>
+		<li>pe_exchangeverbclause->беседуют о</li>
+
+		<li>pe_topic->защите построек от [pe_disaster]</li>
+		<li>pe_topic->постройке [pe_object]</li>
+		<li>pe_topic->лучшем типе [pe_tool]</li>
+		<li>pe_topic->кровле</li>
+		<li>pe_topic->технике безопасности</li>
+
+		<li>pe_disaster->землетрясений</li>
+		<li>pe_disaster->цунами</li>
+		<li>pe_disaster->торнадо</li>
+		<li>pe_disaster->извержения вулкана</li>
+		<li>pe_disaster->радиоактивных осадков</li>
+
+		<li>pe_object->турелей</li>
+		<li>pe_object->стен</li>
+		<li>pe_object->кроватей</li>
+		<li>pe_object->дверей</li>
+
+		<li>pe_tool->молотка</li>
+		<li>pe_tool->гаечного ключа</li>
+		<li>pe_tool->разводного ключа</li>
+		<li>pe_tool->серпа</li>
+	</PawnEducation_Construction.rulePack.rulesStrings>
+
+	<PawnEducation_Mining.rulePack.rulesStrings>
+		<li>sent->[sentence].</li>
+
+		<li>sentence->[INITIATOR_nameDef] и [RECIPIENT_nameDef] [pe_exchangeverbclause] [pe_topic]</li>
+
+		<li>pe_exchangeverbclause->ведут разговор о</li>
+		<li>pe_exchangeverbclause->говорят о</li>
+		<li>pe_exchangeverbclause->спорят о</li>
+		<li>pe_exchangeverbclause->ведут спор о</li>
+		<li>pe_exchangeverbclause->рассуждают о</li>
+		<li>pe_exchangeverbclause->беседуют о</li>
+
+		<li>pe_topic->добыче [pe_resource]</li>
+		<li>pe_topic->местонахождении [pe_resource]</li>
+		<li>pe_topic->техниках поиска [pe_resource]</li>
+		<li>pe_topic->способе очистки [pe_resource]</li>
+		<li>pe_topic->скорости добычи [pe_resource]</li>
+		<li>pe_topic->породах свиней для вынюхивания [pe_resource]</li>
+
+		<li>pe_resource->нефрита</li>
+		<li>pe_resource->золота</li>
+		<li>pe_resource->серебра</li>
+		<li>pe_resource->пластали</li>
+		<li>pe_resource->стали</li>
+		<li>pe_resource->урана</li>
+		<li>pe_resource->сланца</li>
+		<li>pe_resource->гранита</li>
+	</PawnEducation_Mining.rulePack.rulesStrings>
+
+	<PawnEducation_Cooking.rulePack.rulesStrings>
+		<li>sent->[sentence].</li>
+
+		<li>sentence->[INITIATOR_nameDef] и [RECIPIENT_nameDef] [pe_exchangeverbclause] [pe_topic]</li>
+
+		<li>pe_exchangeverbclause->ведут разговор о</li>
+		<li>pe_exchangeverbclause->говорят о</li>
+		<li>pe_exchangeverbclause->спорят о</li>
+		<li>pe_exchangeverbclause->ведут спор о</li>
+		<li>pe_exchangeverbclause->рассуждают о</li>
+		<li>pe_exchangeverbclause->беседуют о</li>
+
+		<li>pe_topic->приготовлении [pe_meal]</li>
+		<li>pe_topic->заготовке [pe_meat]</li>
+		<li>pe_topic->сборе [pe_ingredient]</li>
+		<li>pe_topic->сортах [pe_ingredient]</li>
+		<li>pe_topic->вкусе при смешивании [pe_ingredient] и [pe_ingredient] вместе</li>
+
+		<li>pe_meal->[pe_meat] в собственном соку</li>
+		<li>pe_meal->фрикаделек из [pe_meat]</li>
+		<li>pe_meal->кукурузы в початках</li>
+		<li>pe_meal->[pe_vegetable] на пару</li>
+		<li>pe_meal->[pe_meat] с гарниром из [pe_vegetable]</li>
+		<li>pe_meal->маринованного [pe_vegetable] и поджарки из [pe_meat]</li>
+		<li>pe_meal->блюда из [pe_ingredient] и [pe_ingredient]</li>
+
+		<li>pe_ingredient->[pe_meat]</li>
+		<li>pe_ingredient->[pe_vegetable]</li>
+		
+		<li>pe_vegetable->чеснока</li>
+		<li>pe_vegetable->моркови</li>
+		<li>pe_vegetable->лука</li>
+		<li>pe_vegetable->картошки</li>
+		<li>pe_vegetable->редиса</li>
+		<li>pe_vegetable->брокколи</li>
+
+		<li>pe_meat->человечины</li>
+		<li>pe_meat->мяса муффало</li>
+		<li>pe_meat->маса варга</li>
+		<li>pe_meat->свинины</li>
+		<li>pe_meat->куры</li>
+		<li>pe_meat->кошатины</li>
+		<li>pe_meat->мяса газели</li>
+		<li>pe_meat->мяса насекомого</li>
+		<li>pe_meat->мяса трумбо</li>
+	</PawnEducation_Cooking.rulePack.rulesStrings>
+
+	<PawnEducation_Plants.rulePack.rulesStrings>
+		<li>sent->[sentence].</li>
+
+		<li>sentence->[INITIATOR_nameDef] и [RECIPIENT_nameDef] [pe_exchangeverbclause] [pe_topic]</li>
+
+		<li>pe_exchangeverbclause->ведут разговор о</li>
+		<li>pe_exchangeverbclause->говорят о</li>
+		<li>pe_exchangeverbclause->спорят о</li>
+		<li>pe_exchangeverbclause->ведут спор о</li>
+		<li>pe_exchangeverbclause->рассуждают о</li>
+		<li>pe_exchangeverbclause->беседуют о</li>
+
+		<li>pe_topic->том, как собирать [pe_vegetable]</li>
+		<li>pe_topic->сортах [pe_vegetable]а</li>
+		<li>pe_topic->том, как растёт [pe_vegetable]</li>
+		<li>pe_topic->рассказывании сказок на ночь [pe_vegetable]у, чтобы помочь ему расти быстрее</li>
+		<li>pe_topic->том, какие удобрения лучше всего помогают выращивать [pe_vegetable]</li>
+		<li>pe_topic->лучших почвенных условиях для [pe_vegetable]а</li>
+		<li>pe_topic->лучшем варианте пугала</li>
+
+		<li>pe_vegetable->чеснок</li>
+		<li>pe_vegetable->лук</li>
+		<li>pe_vegetable->редис</li>
+		<li>pe_vegetable->томат</li>
+		<li>pe_vegetable->горох</li>
+	</PawnEducation_Plants.rulePack.rulesStrings>
+
+	<PawnEducation_Animals.rulePack.rulesStrings>
+		<li>sent->[sentence].</li>
+
+		<li>sentence->[INITIATOR_nameDef] и [RECIPIENT_nameDef] [pe_exchangeverbclause][pe_topic]</li>
+
+		<li>pe_exchangeverbclause->ведут разговор о</li>
+		<li>pe_exchangeverbclause->говорят о</li>
+		<li>pe_exchangeverbclause->спорят о</li>
+		<li>pe_exchangeverbclause->ведут спор о</li>
+		<li>pe_exchangeverbclause->рассуждают о</li>
+		<li>pe_exchangeverbclause->беседуют о</li>
+
+		<li>pe_topic->б укрощении [AnimalBadass_plural_gen]</li>
+		<li>pe_topic-> ласках [AnimalBadass_plural_gen]</li>
+		<li>pe_topic-> стрижке [AnimalBadass_plural_gen]</li>
+		<li>pe_topic-> том, как отличить [AnimalBadass_plural_gen] от [AnimalBadass_plural_gen]</li>
+		<li>pe_topic-> принятии [AnimalBadass_gen] в семью [RECIPIENT_possesive]</li>
+		<li>pe_topic-> том, как выглядит [Animal]</li>
+	</PawnEducation_Animals.rulePack.rulesStrings>
+
+	<PawnEducation_Crafting.rulePack.rulesStrings>
+		<li>sent->[sentence].</li>
+
+		<li>sentence->[INITIATOR_nameDef] и [RECIPIENT_nameDef] [pe_exchangeverbclause] [pe_topic]</li>
+
+		<li>pe_exchangeverbclause->ведут разговор о</li>
+		<li>pe_exchangeverbclause->говорят о</li>
+		<li>pe_exchangeverbclause->спорят о</li>
+		<li>pe_exchangeverbclause->ведут спор о</li>
+		<li>pe_exchangeverbclause->рассуждают о</li>
+		<li>pe_exchangeverbclause->беседуют о</li>
+
+		<li>pe_topic->том, как сделать [Apparel]</li>
+		<li>pe_topic->том, как правильно носить [Apparel]</li>
+		<li>pe_topic->том, как сделать [Weapon_fem_acc]</li>
+		<li>pe_topic->способах создания самого смертоносного оружия из возможных</li>
+		<li>pe_topic->типах швов, что упрочняют [Apparel]</li>
+		<li>pe_topic->том, что [Weapon_masc] превосходит [Weapon_fem_acc] по некоторым параметрам</li>
+	</PawnEducation_Crafting.rulePack.rulesStrings>
+
+	<PawnEducation_Artistic.rulePack.rulesStrings>
+		<li>sent->[sentence].</li>
+
+		<li>sentence->[INITIATOR_nameDef] и [RECIPIENT_nameDef] [pe_exchangeverbclause] [pe_topic]</li>
+
+		<li>pe_exchangeverbclause->ведут разговор о</li>
+		<li>pe_exchangeverbclause->говорят о</li>
+		<li>pe_exchangeverbclause->спорят о</li>
+		<li>pe_exchangeverbclause->ведут спор о</li>
+		<li>pe_exchangeverbclause->рассуждают о</li>
+		<li>pe_exchangeverbclause->беседуют о</li>
+
+		<li>pe_topic->ваянии из [pe_resource] безупречных структур</li>
+		<li>pe_topic->сочетании [ConceptPositive] и [ConceptAngsty]</li>
+		<li>pe_topic->вкраплении элементов [pe_resource] в структуры [pe_resource]</li>
+		<li>pe_topic->вдохновляющих эмоциях с различными цветами</li>
+		<li>pe_topic->том, как должна выглядеть [Color_fem] [AdjectiveFriendly_fem] [Animal_fem], сделанная из [pe_resource]</li>
+		<li>pe_topic->том, как должен выглядеть [Color] [AdjectiveBadass] [Animal_masc], сделанный из [pe_resource]</li>
+
+		<li>pe_resource->нефрита</li>
+		<li>pe_resource->золота</li>
+		<li>pe_resource->серебра</li>
+		<li>pe_resource->пластали</li>
+		<li>pe_resource->стали</li>
+		<li>pe_resource->урана</li>
+		<li>pe_resource->сланца</li>
+		<li>pe_resource->гранита</li>
+	</PawnEducation_Artistic.rulePack.rulesStrings>
+
+	<PawnEducation_Medicine.rulePack.rulesStrings>
+		<li>sent->[sentence].</li>
+
+		<li>sentence->[INITIATOR_nameDef] и [RECIPIENT_nameDef] [pe_exchangeverbclause][pe_topic]</li>
+
+		<li>pe_exchangeverbclause->ведут разговор о</li>
+		<li>pe_exchangeverbclause->говорят о</li>
+		<li>pe_exchangeverbclause->спорят о</li>
+		<li>pe_exchangeverbclause->ведут спор о</li>
+		<li>pe_exchangeverbclause->рассуждают о</li>
+		<li>pe_exchangeverbclause->беседуют о</li>
+
+		<li>pe_topic->б обильной кровопотери после того, как удалить [BodyPart]</li>
+		<li>pe_topic-> дымолисте, как лучшей альтернативе психину в качестве анестезии</li>
+		<li>pe_topic-> том, что [BodyPart] не самая подходящая часть тела для инъекции стероидов</li>
+		<li>pe_topic-> том, что [BodyPart] не подлежит хирургическому восстановлению</li>
+		<li>pe_topic-> замене [pe_bodypart] бионической частью тела</li>
+		<li>pe_topic-> прижигании ран</li>
+		<li>pe_topic-> профилактике и лечении заболеваний</li>       
+
+		<li>pe_bodypart->глаза</li>
+		<li>pe_bodypart->уха</li>
+		<li>pe_bodypart->ноги</li>
+		<li>pe_bodypart->руки</li>
+		<li>pe_bodypart->носа</li>
+	</PawnEducation_Medicine.rulePack.rulesStrings>
+
+	<PawnEducation_Social.rulePack.rulesStrings>
+		<li>sent->[sentence].</li>
+
+		<li>sentence->[INITIATOR_nameDef] и [RECIPIENT_nameDef] [pe_exchangeverbclause][pe_topic]</li>
+
+		<li>pe_exchangeverbclause->ведут разговор о</li>
+		<li>pe_exchangeverbclause->говорят о</li>
+		<li>pe_exchangeverbclause->спорят о</li>
+		<li>pe_exchangeverbclause->ведут спор о</li>
+		<li>pe_exchangeverbclause->рассуждают о</li>
+		<li>pe_exchangeverbclause->беседуют о</li>
+
+		<li>pe_topic-> речах до хрипоты</li>
+		<li>pe_topic->б убеждении [Enemies_gen] присоединиться к поселению</li>
+		<li>pe_topic-> вдохновлении других сражаться сильнее</li>
+		<li>pe_topic-> развлечении гостей</li>
+		<li>pe_topic-> красноречии</li>
+		<li>pe_topic-> лжи во спасение</li>
+	</PawnEducation_Social.rulePack.rulesStrings>
+
+	<PawnEducation_Intellectual.rulePack.rulesStrings>
+		<li>sent->[sentence].</li>
+
+		<li>sentence->[INITIATOR_nameDef] и [RECIPIENT_nameDef] [pe_exchangeverbclause][pe_topic]</li>
+
+		<li>pe_exchangeverbclause->ведут разговор о</li>
+		<li>pe_exchangeverbclause->говорят о</li>
+		<li>pe_exchangeverbclause->спорят о</li>
+		<li>pe_exchangeverbclause->ведут спор о</li>
+		<li>pe_exchangeverbclause->рассуждают о</li>
+		<li>pe_exchangeverbclause->беседуют о</li>
+
+		<li>pe_topic-> научных методах</li>
+		<li>pe_topic-> логических выводах</li>
+		<li>pe_topic->б анатомии [AnimalBadass_gen]</li>
+		<li>pe_topic-> дедуктивном рассуждении</li>
+		<li>pe_topic-> том, почему зеленая жижа и синяя жижа не должны смешиваться вместе</li>
+		<li>pe_topic-> форматировании дипломных работ</li>
+		<li>pe_topic-> представлении открытий коллегам</li>
+	</PawnEducation_Intellectual.rulePack.rulesStrings>
+
+	<PawnEducation_NoPassionLearn.rulePack.rulesStrings>
+		<li>sent->[sentence].</li>
+
+		<li>sentence->[RECIPIENT_nameDef] [reception]</li>
+
+		<li>reception->этим не интересуется</li>
+		<li>reception->засыпает во время обсуждения</li>
+		<li>reception->отвлекается, пока [INITIATOR_nameDef] произносит речь</li>
+		<li>reception->не обращает никакого внимания</li>
+		<li>reception->не вникает</li>
+	</PawnEducation_NoPassionLearn.rulePack.rulesStrings>
+
+	<PawnEducation_PassionLearn.rulePack.rulesStrings>
+		<li>sent->[sentence].</li>
+
+		<li>sentence->[RECIPIENT_nameDef] [reception]</li>
+
+		<li>reception->интересуется обсуждаемой темой</li>
+		<li>reception->записывает некоторые слова</li>
+		<li>reception->задаёт пару вопросов</li>
+		<li>reception->поддерживает разговор</li>
+	</PawnEducation_PassionLearn.rulePack.rulesStrings>
+
+	<PawnEducation_BurningPassionLearn.rulePack.rulesStrings>
+		<li>sent->[sentence].</li>
+
+		<li>sentence->[RECIPIENT_nameDef] [reception]</li>
+
+		<li>reception->внимательно слушает</li>
+		<li>reception->весь внимание</li>
+		<li>reception->записывает в [RECIPIENT_possesive] дневник все слова, что произносит [INITIATOR_nameDef]</li>
+		<li>reception->живо интересуется обсуждаемой темой</li>
+	</PawnEducation_BurningPassionLearn.rulePack.rulesStrings>
+
+	<PawnEducation_MasterLearn.rulePack.rulesStrings>
+		<li>sent->[sentence].</li>
+
+		<li>sentence->[RECIPIENT_nameDef] [reception]</li>
+
+		<li>reception->был поражен, насколько в совершенстве [INITIATOR_nameDef] знает предмет</li>
+		<li>reception->требует [INITIATOR_nameDef] взять немного денег за урок</li>
+		<li>reception->устраивает [INITIATOR_nameDef] овацию стоя</li>
+		<li>reception->чуть не накладывает в [RECIPIENT_possesive] штаны от волнения</li>
+		<li>reception->вдохновляется на исследование новых высот</li>
+	</PawnEducation_MasterLearn.rulePack.rulesStrings>
+
+</LanguageData>
