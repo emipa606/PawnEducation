@@ -1,24 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-	<PawnEducation_PassionTeach.stages.0.label>наставничество</PawnEducation_PassionTeach.stages.0.label>
-	<PawnEducation_PassionTeachMood.stages.0.label>наставничество</PawnEducation_PassionTeachMood.stages.0.label>
-	<PawnEducation_PassionTeachMood.stages.0.description>Мне довелось обучить своего знакомого предмету, который мне нравится.</PawnEducation_PassionTeachMood.stages.0.description>
-
-	<PawnEducation_PassionLearn.stages.0.label>обучение</PawnEducation_PassionLearn.stages.0.label>
-	<PawnEducation_PassionLearnMood.stages.0.label>обучение</PawnEducation_PassionLearnMood.stages.0.label>
-	<PawnEducation_PassionLearnMood.stages.0.description>Мне довелось узнать кое-что новое о предмете, который мне нравится.</PawnEducation_PassionLearnMood.stages.0.description>
-
-	<PawnEducation_BurningPassionTeach.stages.0.label>увлечённое наставничество</PawnEducation_BurningPassionTeach.stages.0.label>
-	<PawnEducation_BurningPassionTeachMood.stages.0.label>увлечённое наставничество</PawnEducation_BurningPassionTeachMood.stages.0.label>
-	<PawnEducation_BurningPassionTeachMood.stages.0.description>Мне довелось обучить своего знакомого предмету, которым я увлекаюсь.</PawnEducation_BurningPassionTeachMood.stages.0.description>
-
-	<PawnEducation_BurningPassionLearn.stages.0.label>увлечённое обучение</PawnEducation_BurningPassionLearn.stages.0.label>
-	<PawnEducation_BurningPassionLearnMood.stages.0.label>увлечённое обучение</PawnEducation_BurningPassionLearnMood.stages.0.label>
-	<PawnEducation_BurningPassionLearnMood.stages.0.description>Мне довелось узнать кое-что новое о предмете, которым я увлекаюсь.</PawnEducation_BurningPassionLearnMood.stages.0.description>
-
-	<PawnEducation_MasterLearn.stages.0.label>мастер-класс</PawnEducation_MasterLearn.stages.0.label>
-	<PawnEducation_MasterLearnMood.stages.0.label>мастер-класс</PawnEducation_MasterLearnMood.stages.0.label>
-	<PawnEducation_MasterLearnMood.stages.0.description>Ух ты! Мне преподал личный урок мастер своего дела.</PawnEducation_MasterLearnMood.stages.0.description>
-
+  <PawnEducation_PassionTeach.stages.0.label>наставничество</PawnEducation_PassionTeach.stages.0.label>
+  <PawnEducation_PassionTeachMood.stages.0.label>наставничество</PawnEducation_PassionTeachMood.stages.0.label>
+  <PawnEducation_PassionTeachMood.stages.0.description>Мне довелось обучить своего знакомого предмету, который мне нравится.</PawnEducation_PassionTeachMood.stages.0.description>
+  <PawnEducation_PassionLearn.stages.0.label>обучение</PawnEducation_PassionLearn.stages.0.label>
+  <PawnEducation_PassionLearnMood.stages.0.label>обучение</PawnEducation_PassionLearnMood.stages.0.label>
+  <PawnEducation_PassionLearnMood.stages.0.description>Мне довелось узнать кое-что новое о предмете, который мне нравится.</PawnEducation_PassionLearnMood.stages.0.description>
+  <PawnEducation_BurningPassionTeach.stages.0.label>увлечённое наставничество</PawnEducation_BurningPassionTeach.stages.0.label>
+  <PawnEducation_BurningPassionTeachMood.stages.0.label>увлечённое наставничество</PawnEducation_BurningPassionTeachMood.stages.0.label>
+  <PawnEducation_BurningPassionTeachMood.stages.0.description>Мне довелось обучить своего знакомого предмету, которым я увлекаюсь.</PawnEducation_BurningPassionTeachMood.stages.0.description>
+  <PawnEducation_BurningPassionLearn.stages.0.label>увлечённое обучение</PawnEducation_BurningPassionLearn.stages.0.label>
+  <PawnEducation_BurningPassionLearnMood.stages.0.label>увлечённое обучение</PawnEducation_BurningPassionLearnMood.stages.0.label>
+  <PawnEducation_BurningPassionLearnMood.stages.0.description>Мне довелось узнать кое-что новое о предмете, которым я увлекаюсь.</PawnEducation_BurningPassionLearnMood.stages.0.description>
+  <PawnEducation_MasterLearn.stages.0.label>мастер-класс</PawnEducation_MasterLearn.stages.0.label>
+  <PawnEducation_MasterLearnMood.stages.0.label>мастер-класс</PawnEducation_MasterLearnMood.stages.0.label>
+  <PawnEducation_MasterLearnMood.stages.0.description>Ух ты! Мне преподал личный урок мастер своего дела.</PawnEducation_MasterLearnMood.stages.0.description>
 </LanguageData>
