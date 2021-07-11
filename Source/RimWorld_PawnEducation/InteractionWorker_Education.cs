@@ -1,13 +1,13 @@
-﻿using Verse;
-using RimWorld;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
+using RimWorld;
+using Verse;
 
 namespace PawnEducation
 {
     public class InteractionWorker_Education : InteractionWorker
     {
-        private SkillRecord taggedInitiatorSkill = null;
+        private SkillRecord taggedInitiatorSkill;
 
         public override float RandomSelectionWeight(Pawn initiator, Pawn recipient)
         {
@@ -26,15 +26,17 @@ namespace PawnEducation
                 return 0f;
             }
 
-            SkillRecord recipientSkill = recipient.skills.GetSkill(taggedInitiatorSkill.def);
+            var recipientSkill = recipient.skills.GetSkill(taggedInitiatorSkill.def);
 
             //baseWeight.min = 0.20, baseWeight.max = 0.80
-            weightMult += (int)recipientSkill.passion + (int)taggedInitiatorSkill.passion;
+            weightMult += (int) recipientSkill.passion + (int) taggedInitiatorSkill.passion;
 
-            return ModSettings.instance.baseInteractionWeight * weightMult * ModSettings.instance.interactionAdjustMultiplier;
+            return ModSettings.instance.baseInteractionWeight * weightMult *
+                   ModSettings.instance.interactionAdjustMultiplier;
         }
 
-        public override void Interacted(Pawn initiator, Pawn recipient, List<RulePackDef> extraSentencePacks, out string letterText, out string letterLabel, out LetterDef letterDef, out LookTargets lookTargets)
+        public override void Interacted(Pawn initiator, Pawn recipient, List<RulePackDef> extraSentencePacks,
+            out string letterText, out string letterLabel, out LetterDef letterDef, out LookTargets lookTargets)
         {
             letterText = null;
             letterDef = null;
@@ -42,7 +44,7 @@ namespace PawnEducation
             lookTargets = null;
 
             int baseExp = ModSettings.instance.baseInteractionExp;
-            SkillRecord recipientSkill = recipient.skills.GetSkill(taggedInitiatorSkill.def);
+            var recipientSkill = recipient.skills.GetSkill(taggedInitiatorSkill.def);
 
             //the higher the difference in skill between the two, the more experience the recipient gets/the less the initiator gets reciprocated
             //the world's shittiest algorithm right here, probably make it better at some point
@@ -73,7 +75,8 @@ namespace PawnEducation
             taggedInitiatorSkill.Learn(initiatorExp);
         }
 
-        private void RecipientLearn(Pawn initiator, Pawn recipient, SkillRecord recipientSkill, int recipientExp, List<RulePackDef> extraSentencePacks)
+        private void RecipientLearn(Pawn initiator, Pawn recipient, SkillRecord recipientSkill, int recipientExp,
+            List<RulePackDef> extraSentencePacks)
         {
             var recipientSpecialLearn = false;
 
@@ -85,14 +88,18 @@ namespace PawnEducation
                     //master lesson
                     recipientSpecialLearn = true;
                     recipientSkill.Level += ModSettings.instance.interactionRecipientMasterLessonLevelGain;
-                    Messages.Message("MasterLesson".Translate(recipient.LabelShort, recipientSkill.def.label, initiator.LabelShort,
-                            recipient.Named("RECIPIENT"), recipientSkill.def.Named("SKILL"), initiator.Named("INITIATOR")), MessageTypeDefOf.PositiveEvent);
+                    Messages.Message("MasterLesson".Translate(recipient.LabelShort, recipientSkill.def.label,
+                            initiator.LabelShort,
+                            recipient.Named("RECIPIENT"), recipientSkill.def.Named("SKILL"),
+                            initiator.Named("INITIATOR")),
+                        MessageTypeDefOf.PositiveEvent);
                 }
                 else
                 {
                     //regular lesson from master
                     recipientExp *= ModSettings.instance.interactionRecipientMasterEducationExpMultiplier;
                 }
+
                 ApplyInteractionAndThought(recipient, initiator, "PawnEducation_MasterLearn", extraSentencePacks);
             }
             else
@@ -102,14 +109,17 @@ namespace PawnEducation
                 {
                     case Passion.Major:
                         recipientExp *= ModSettings.instance.interactionRecipientMajorPassionExpMultiplier;
-                        ApplyInteractionAndThought(recipient, initiator, "PawnEducation_BurningPassionLearn", extraSentencePacks);
+                        ApplyInteractionAndThought(recipient, initiator, "PawnEducation_BurningPassionLearn",
+                            extraSentencePacks);
                         break;
                     case Passion.Minor:
                         recipientExp *= ModSettings.instance.interactionRecipientMinorPassionExpMultiplier;
-                        ApplyInteractionAndThought(recipient, initiator, "PawnEducation_PassionLearn", extraSentencePacks);
+                        ApplyInteractionAndThought(recipient, initiator, "PawnEducation_PassionLearn",
+                            extraSentencePacks);
                         break;
                     default:
-                        ApplyInteractionAndThought(recipient, initiator, "PawnEducation_NoPassionLearn", extraSentencePacks);
+                        ApplyInteractionAndThought(recipient, initiator, "PawnEducation_NoPassionLearn",
+                            extraSentencePacks);
                         break;
                 }
             }
@@ -123,10 +133,11 @@ namespace PawnEducation
         private SkillRecord RandomSkillToDiscuss(Pawn initiator, Pawn recipient)
         {
             return (from SkillRecord iSkill in initiator.skills.skills
-                    join SkillRecord rSkill in recipient.skills.skills on iSkill.def equals rSkill.def into rS
-                    from rSkill in rS
-                    where rSkill != null && iSkill.passion != Passion.None && !iSkill.TotallyDisabled && !rSkill.TotallyDisabled && (iSkill.Level - rSkill.Level) >= 2
-                    select iSkill).DefaultIfEmpty(null).RandomElement<SkillRecord>();
+                join SkillRecord rSkill in recipient.skills.skills on iSkill.def equals rSkill.def into rS
+                from rSkill in rS
+                where rSkill != null && iSkill.passion != Passion.None && !iSkill.TotallyDisabled &&
+                      !rSkill.TotallyDisabled && iSkill.Level - rSkill.Level >= 2
+                select iSkill).DefaultIfEmpty(null).RandomElement();
         }
 
         private void LoadSkillBasedSentences(List<RulePackDef> extraSentencePacks)
@@ -134,7 +145,8 @@ namespace PawnEducation
             extraSentencePacks.Add(RulePackDef.Named($"PawnEducation_{taggedInitiatorSkill.def.defName}"));
         }
 
-        private void ApplyInteractionAndThought(Pawn thoughtReceiver, Pawn thoughtTarget, string defName, List<RulePackDef> extraSentencePacks)
+        private void ApplyInteractionAndThought(Pawn thoughtReceiver, Pawn thoughtTarget, string defName,
+            List<RulePackDef> extraSentencePacks)
         {
             var rulePack = RulePackDef.Named(defName);
             extraSentencePacks.Add(rulePack);
@@ -150,7 +162,8 @@ namespace PawnEducation
             var thought = ThoughtDef.Named(defName);
             if (ThoughtUtility.CanGetThought(thoughtReceiver, thought))
             {
-                thoughtReceiver.needs.mood.thoughts.memories.TryGainMemory((Thought_Memory)ThoughtMaker.MakeThought(thought), thoughtTarget);
+                thoughtReceiver.needs.mood.thoughts.memories.TryGainMemory(
+                    (Thought_Memory) ThoughtMaker.MakeThought(thought), thoughtTarget);
             }
         }
     }

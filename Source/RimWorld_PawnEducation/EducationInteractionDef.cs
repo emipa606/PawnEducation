@@ -2,5 +2,7 @@
 
 namespace PawnEducation
 {
-    public class EducationInteractionDef:InteractionDef {}
+    public class EducationInteractionDef : InteractionDef
+    {
+    }
 }

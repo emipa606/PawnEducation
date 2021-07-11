@@ -13,7 +13,7 @@ namespace PawnEducation.Harmony
             var message = "pawn.education : patched DoListingItems";
 
             ModSettings.ReadModSettings(ref message);
-            Log.Message(message, false);
+            Log.Message(message);
         }
     }
 }

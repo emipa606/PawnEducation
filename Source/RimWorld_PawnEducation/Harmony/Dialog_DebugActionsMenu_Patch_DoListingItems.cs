@@ -1,6 +1,6 @@
-﻿using HarmonyLib;
+﻿using System;
+using HarmonyLib;
 using Verse;
-using System;
 
 namespace PawnEducation.Harmony
 {
@@ -14,9 +14,9 @@ namespace PawnEducation.Harmony
             {
                 DoListingItems_Mod(__instance);
             }
-            catch(Exception e)
+            catch (Exception e)
             {
-                Log.Message($"PawnEducation : DoListingItems_Postfix error - {e.Message}", true);
+                Log.Message($"PawnEducation : DoListingItems_Postfix error - {e.Message}");
             }
         }
 
