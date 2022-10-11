@@ -1,8 +1,7 @@
 ﻿using RimWorld;
 
-namespace PawnEducation
+namespace PawnEducation;
+
+public class EducationInteractionDef : InteractionDef
 {
-    public class EducationInteractionDef : InteractionDef
-    {
-    }
 }
