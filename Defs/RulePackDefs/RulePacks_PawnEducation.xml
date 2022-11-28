@@ -173,7 +173,7 @@
         <li>pe_topic-&gt;farming [pe_ingredient]</li>
         <li>pe_topic-&gt;how [pe_ingredient] and [pe_ingredient] taste sublime when mixed together</li>
         <li>pe_meal-&gt;[pe_meat] en croute</li>
-        <li>pe_meal-&gt;[pe_meat] pe_meatballs</li>
+        <li>pe_meal-&gt;[pe_meat] meatballs</li>
         <li>pe_meal-&gt;corn on the cob</li>
         <li>pe_meal-&gt;steamed [Vegetable]</li>
         <li>pe_meal-&gt;sliced [pe_meat] with sautéed [Vegetable] au jus</li>
