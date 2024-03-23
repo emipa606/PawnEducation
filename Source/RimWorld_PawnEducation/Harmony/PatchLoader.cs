@@ -8,8 +8,7 @@ internal class PatchLoader
 {
     static PatchLoader()
     {
-        var instance = new HarmonyLib.Harmony("pawn.education");
-        instance.PatchAll(Assembly.GetExecutingAssembly());
+        new HarmonyLib.Harmony("pawn.education").PatchAll(Assembly.GetExecutingAssembly());
         var message = "pawn.education : patched DoListingItems";
 
         ModSettings.ReadModSettings(ref message);
