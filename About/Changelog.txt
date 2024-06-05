@@ -1,5 +1,8 @@
 # Changelog for PawnEducation
 
+1.5.1 - Made the config-path generation os-agnostic
+
+
 1.5.0 - Mod updated for 1.5 and passed autotests
 
 

@@ -110,7 +110,7 @@ public class ModSettings
 
     public static void ReadModSettings(ref string message)
     {
-        var path = $"{GenFilePaths.ConfigFolderPath}\\PawnEducation.config";
+        var path = Path.Combine(GenFilePaths.ConfigFolderPath, "PawnEducation.config");
 
         if (File.Exists(path))
         {
@@ -137,7 +137,7 @@ public class ModSettings
 
     public static void WriteModSettings()
     {
-        var path = $"{GenFilePaths.ConfigFolderPath}\\PawnEducation.config";
+        var path = Path.Combine(GenFilePaths.ConfigFolderPath, "PawnEducation.config");
 
         var xml = new XmlSerializer(typeof(ModSettings));
         TextWriter file = new StreamWriter(path);
