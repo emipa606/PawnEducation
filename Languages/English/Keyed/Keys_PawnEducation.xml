@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <MasterLesson>{RECIPIENT_labelShort} received a master lesson in {SKILL_label} from {INITIATOR_labelShort}, and gained 2 levels as a result!</MasterLesson>
 </LanguageData>

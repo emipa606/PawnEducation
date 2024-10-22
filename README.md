@@ -1,6 +1,7 @@
 # [Pawn Education (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2296533470)
 
 ![Image](https://i.imgur.com/buuPQel.png)
+
 Update of Tylers mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1729795429
 
@@ -9,6 +10,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1729795429
 ![Image](https://i.imgur.com/pufA0kM.png)
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
+
 A mod that allows pawns to educate each other. 
 
 # Description
@@ -41,7 +43,7 @@ Student gets a 4x xp multiplier for burning passion, and a 2x xp multiplier for 
 Student gets a 8x xp multiplier if the teacher is a master (Skill = 20). This is not combined with other xp modifiers for the student.
 If the teacher is a master (Skill=20), there is a 5% chance he/she will give a 'master lesson'. This is an automatic 2 level increase to the skill for the student. If this activates, the student does not get other skill gains listed above. The teacher gets the same xp bonus regardless.
 
-[u]Thoughts/moods[/u]
+<ins>Thoughts/moods</ins>
 Check the ThoughtsDef file for specifics on how social/opinions are affected
 
 Teaching/learning a passionate skill gives a +1 mood buff, lasting 3 days, stacking up to 5 times
@@ -93,14 +95,15 @@ Incorporating Insult/Social fight chances into the mix
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
 
+
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using [https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404](Uploader) and command Ctrl+F12
+-  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
--  Use [https://github.com/RimSort/RimSort/releases/latest](RimSort) to sort your mods
+-  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
+ 
 
-
-[https://steamcommunity.com/sharedfiles/filedetails/changelog/2296533470]![Image]((https://img.shields.io/github/v/release/emipa606/PawnEducation?label=latest%20version&style=plastic&color=9f1111&labelColor=black))
+[![Image](https://img.shields.io/github/v/release/emipa606/PawnEducation?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2296533470) | tags:  teaching, education,  social

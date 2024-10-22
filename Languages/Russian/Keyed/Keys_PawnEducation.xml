@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <MasterLesson>{INITIATOR_labelShort} проводит мастер-класс по теме "{SKILL_label}": {RECIPIENT_labelShort} повышает навык на 2 уровня!</MasterLesson>
 </LanguageData>

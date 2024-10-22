@@ -80,7 +80,7 @@ public class InteractionWorker_Education : InteractionWorker
     {
         var recipientSpecialLearn = false;
 
-        if (taggedInitiatorSkill.Level == ModSettings.instance.interactionInitiatorMasterLessionLevelRequirement)
+        if (taggedInitiatorSkill.Level >= ModSettings.instance.interactionInitiatorMasterLessionLevelRequirement)
         {
             //learned from the master
             if (Rand.Value < ModSettings.instance.interactionRecipientMasterLessonChance)

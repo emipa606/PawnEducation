@@ -1,5 +1,8 @@
 # Changelog for PawnEducation
 
+1.5.2 - Master education should now work for skill levels above 20 as well
+
+
 1.5.1 - Made the config-path generation os-agnostic
 
 
