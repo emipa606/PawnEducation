@@ -1,5 +1,8 @@
 # Changelog for PawnEducation
 
+1.5.3 - Added support for a mod
+
+
 1.5.2 - Master education should now work for skill levels above 20 as well
 
 
