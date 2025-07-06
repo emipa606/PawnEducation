@@ -2,12 +2,18 @@
   "Continued": true,
   "CanAdd": "0",
   "CanRemove": "2",
-  "PreviewVersion": "1.5",
+  "PreviewVersion": "1.6",
   "SocialImageSet": true,
   "SearchTags": [
     " teaching",
     "education",
     " social"
   ],
-  "LastXmlCleaning": "2025-03-06T21:40:53.4314287+01:00"
+  "LastXmlCleaning": "2025-07-06T16:58:25.4004342+02:00",
+  "Patches": true,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 16339,
+  "LinesOfXML": 30883,
+  "CodeBaseSize": 74
 }

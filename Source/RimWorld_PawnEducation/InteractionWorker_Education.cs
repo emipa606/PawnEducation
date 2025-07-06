@@ -18,7 +18,7 @@ public class InteractionWorker_Education : InteractionWorker
 
         var weightMult = 0;
 
-        taggedInitiatorSkill = RandomSkillToDiscuss(initiator, recipient);
+        taggedInitiatorSkill = randomSkillToDiscuss(initiator, recipient);
 
         //no passion, recipient is more educated in relevant skills than initiator, or passionate skills are disabled on initiator or recipient :(
         if (taggedInitiatorSkill == null)
@@ -53,29 +53,29 @@ public class InteractionWorker_Education : InteractionWorker
         var recipientExp = baseExp * skillDiff * ModSettings.instance.baseInteractionRecipientExpMultiplier;
 
         //load log sentences based on which skill was discussed
-        LoadSkillBasedSentences(extraSentencePacks);
-        InitiatorLearn(initiator, recipient, initiatorExp);
-        RecipientLearn(initiator, recipient, recipientSkill, recipientExp, extraSentencePacks);
+        loadSkillBasedSentences(extraSentencePacks);
+        initiatorLearn(initiator, recipient, initiatorExp);
+        recipientLearn(initiator, recipient, recipientSkill, recipientExp, extraSentencePacks);
     }
 
-    private void InitiatorLearn(Pawn initiator, Pawn recipient, int initiatorExp)
+    private void initiatorLearn(Pawn initiator, Pawn recipient, int initiatorExp)
     {
         //bonus to exp based on passion, and set thoughts
         switch (taggedInitiatorSkill.passion)
         {
             case Passion.Major:
                 initiatorExp *= ModSettings.instance.interactionInitiatorMajorPassionExpMultiplier;
-                ApplyThought(initiator, recipient, "PawnEducation_BurningPassionTeach");
+                applyThought(initiator, recipient, "PawnEducation_BurningPassionTeach");
                 break;
             case Passion.Minor:
-                ApplyThought(initiator, recipient, "PawnEducation_PassionTeach");
+                applyThought(initiator, recipient, "PawnEducation_PassionTeach");
                 break;
         }
 
         taggedInitiatorSkill.Learn(initiatorExp);
     }
 
-    private void RecipientLearn(Pawn initiator, Pawn recipient, SkillRecord recipientSkill, int recipientExp,
+    private void recipientLearn(Pawn initiator, Pawn recipient, SkillRecord recipientSkill, int recipientExp,
         List<RulePackDef> extraSentencePacks)
     {
         var recipientSpecialLearn = false;
@@ -100,7 +100,7 @@ public class InteractionWorker_Education : InteractionWorker
                 recipientExp *= ModSettings.instance.interactionRecipientMasterEducationExpMultiplier;
             }
 
-            ApplyInteractionAndThought(recipient, initiator, "PawnEducation_MasterLearn", extraSentencePacks);
+            applyInteractionAndThought(recipient, initiator, "PawnEducation_MasterLearn", extraSentencePacks);
         }
         else
         {
@@ -109,16 +109,16 @@ public class InteractionWorker_Education : InteractionWorker
             {
                 case Passion.Major:
                     recipientExp *= ModSettings.instance.interactionRecipientMajorPassionExpMultiplier;
-                    ApplyInteractionAndThought(recipient, initiator, "PawnEducation_BurningPassionLearn",
+                    applyInteractionAndThought(recipient, initiator, "PawnEducation_BurningPassionLearn",
                         extraSentencePacks);
                     break;
                 case Passion.Minor:
                     recipientExp *= ModSettings.instance.interactionRecipientMinorPassionExpMultiplier;
-                    ApplyInteractionAndThought(recipient, initiator, "PawnEducation_PassionLearn",
+                    applyInteractionAndThought(recipient, initiator, "PawnEducation_PassionLearn",
                         extraSentencePacks);
                     break;
                 default:
-                    ApplyInteractionAndThought(recipient, initiator, "PawnEducation_NoPassionLearn",
+                    applyInteractionAndThought(recipient, initiator, "PawnEducation_NoPassionLearn",
                         extraSentencePacks);
                     break;
             }
@@ -130,7 +130,7 @@ public class InteractionWorker_Education : InteractionWorker
         }
     }
 
-    private SkillRecord RandomSkillToDiscuss(Pawn initiator, Pawn recipient)
+    private static SkillRecord randomSkillToDiscuss(Pawn initiator, Pawn recipient)
     {
         return (from SkillRecord iSkill in initiator.skills.skills
             join SkillRecord rSkill in recipient.skills.skills on iSkill.def equals rSkill.def into rS
@@ -140,12 +140,12 @@ public class InteractionWorker_Education : InteractionWorker
             select iSkill).DefaultIfEmpty(null).RandomElement();
     }
 
-    private void LoadSkillBasedSentences(List<RulePackDef> extraSentencePacks)
+    private void loadSkillBasedSentences(List<RulePackDef> extraSentencePacks)
     {
         extraSentencePacks.Add(RulePackDef.Named($"PawnEducation_{taggedInitiatorSkill.def.defName}"));
     }
 
-    private void ApplyInteractionAndThought(Pawn thoughtReceiver, Pawn thoughtTarget, string defName,
+    private void applyInteractionAndThought(Pawn thoughtReceiver, Pawn thoughtTarget, string defName,
         List<RulePackDef> extraSentencePacks)
     {
         var rulePack = RulePackDef.Named(defName);
@@ -153,11 +153,11 @@ public class InteractionWorker_Education : InteractionWorker
 
         if (!defName.Contains("NoPassion"))
         {
-            ApplyThought(thoughtReceiver, thoughtTarget, defName);
+            applyThought(thoughtReceiver, thoughtTarget, defName);
         }
     }
 
-    private void ApplyThought(Pawn thoughtReceiver, Pawn thoughtTarget, string defName)
+    private static void applyThought(Pawn thoughtReceiver, Pawn thoughtTarget, string defName)
     {
         var thought = ThoughtDef.Named(defName);
         if (ThoughtUtility.CanGetThought(thoughtReceiver, thought))

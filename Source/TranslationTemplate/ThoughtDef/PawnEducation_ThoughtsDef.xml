@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Very passionate education -->
+  <PawnEducation_BurningPassionLearn.stages.Very_passionate_education.label>Very passionate education</PawnEducation_BurningPassionLearn.stages.Very_passionate_education.label>
+  <!-- EN: Very passionate education -->
+  <PawnEducation_BurningPassionLearnMood.stages.Very_passionate_education.label>Very passionate education</PawnEducation_BurningPassionLearnMood.stages.Very_passionate_education.label>
+  <!-- EN: I've learned from a tutor about a subject I have a burning passion for. -->
+  <PawnEducation_BurningPassionLearnMood.stages.Very_passionate_education.description>I've learned from a tutor about a subject I have a burning passion for.</PawnEducation_BurningPassionLearnMood.stages.Very_passionate_education.description>
+  <!-- EN: Very passionate tutelage -->
+  <PawnEducation_BurningPassionTeach.stages.Very_passionate_tutelage.label>Very passionate tutelage</PawnEducation_BurningPassionTeach.stages.Very_passionate_tutelage.label>
+  <!-- EN: Very passionate tutelage -->
+  <PawnEducation_BurningPassionTeachMood.stages.Very_passionate_tutelage.label>Very passionate tutelage</PawnEducation_BurningPassionTeachMood.stages.Very_passionate_tutelage.label>
+  <!-- EN: I've educated an acquaintance on a subject I have a burning passion for. -->
+  <PawnEducation_BurningPassionTeachMood.stages.Very_passionate_tutelage.description>I've educated an acquaintance on a subject I have a burning passion for.</PawnEducation_BurningPassionTeachMood.stages.Very_passionate_tutelage.description>
+  <!-- EN: Master education -->
+  <PawnEducation_MasterLearn.stages.Master_education.label>Master education</PawnEducation_MasterLearn.stages.Master_education.label>
+  <!-- EN: Master education -->
+  <PawnEducation_MasterLearnMood.stages.Master_education.label>Master education</PawnEducation_MasterLearnMood.stages.Master_education.label>
+  <!-- EN: Wow! I got a personal lesson from THE master of a craft. -->
+  <PawnEducation_MasterLearnMood.stages.Master_education.description>Wow! I got a personal lesson from THE master of a craft.</PawnEducation_MasterLearnMood.stages.Master_education.description>
+  <!-- EN: Passionate education -->
+  <PawnEducation_PassionLearn.stages.Passionate_education.label>Passionate education</PawnEducation_PassionLearn.stages.Passionate_education.label>
+  <!-- EN: Passionate education -->
+  <PawnEducation_PassionLearnMood.stages.Passionate_education.label>Passionate education</PawnEducation_PassionLearnMood.stages.Passionate_education.label>
+  <!-- EN: I've learned from a tutor about a subject I am passionate about. -->
+  <PawnEducation_PassionLearnMood.stages.Passionate_education.description>I've learned from a tutor about a subject I am passionate about.</PawnEducation_PassionLearnMood.stages.Passionate_education.description>
+  <!-- EN: Passionate tutelage -->
+  <PawnEducation_PassionTeach.stages.Passionate_tutelage.label>Passionate tutelage</PawnEducation_PassionTeach.stages.Passionate_tutelage.label>
+  <!-- EN: Passionate tutelage -->
+  <PawnEducation_PassionTeachMood.stages.Passionate_tutelage.label>Passionate tutelage</PawnEducation_PassionTeachMood.stages.Passionate_tutelage.label>
+  <!-- EN: I've educated an acquaintance on a subject I am passionate about. -->
+  <PawnEducation_PassionTeachMood.stages.Passionate_tutelage.description>I've educated an acquaintance on a subject I am passionate about.</PawnEducation_PassionTeachMood.stages.Passionate_tutelage.description>
+</LanguageData>

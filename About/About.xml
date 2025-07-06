@@ -11,6 +11,7 @@
     <li>1.3</li>
     <li>1.4</li>
     <li>1.5</li>
+    <li>1.6</li>
   </supportedVersions>
   <modDependencies>
     <li>
@@ -128,5 +129,5 @@ Incorporating Insult/Social fight chances into the mix
 [/list] 
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2296533470][img]https://img.shields.io/github/v/release/emipa606/PawnEducation?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  teaching, education,  social</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.5.3</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.0</modVersion>
 </ModMetaData>

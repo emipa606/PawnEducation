@@ -5,10 +5,9 @@ using Verse;
 
 namespace PawnEducation.Harmony;
 
-[HarmonyPatch(typeof(Dialog_DebugOptionLister), "DoListingItems")]
-internal static class Dialog_DebugActionsMenu_Patch_DoListingItems
+[HarmonyPatch(typeof(Dialog_DebugOptionListLister), "DoListingItems")]
+internal static class Dialog_DebugOptionListLister_DoListingItems
 {
-    [HarmonyPostfix]
     public static void Postfix(Dialog_DebugOptionLister __instance)
     {
         try
