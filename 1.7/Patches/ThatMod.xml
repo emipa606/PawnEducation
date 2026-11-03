@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd" MayRequire="rjw.sexperience">
+        <xpath>Defs</xpath>
+        <value>
+          <RulePackDef>
+            <defName>PawnEducation_Sex</defName>
+            <rulePack>
+              <rulesStrings>
+                <li>sent->[sentence].</li>
+                <li>sentence->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [pe_exchangeverbclause] [pe_topic]</li>
+                <li>sentence->[INITIATOR_nameDef] [pe_exchangeverbclause] [pe_topic] with [RECIPIENT_nameDef]</li>
+                <li>sentence->[INITIATOR_nameDef] told a dirty joke to [RECIPIENT_nameDef]</li>
+                <li>pe_exchangeverbclause->discussed</li>
+                <li>pe_exchangeverbclause->whispered and giggled about</li>
+                <li>pe_exchangeverbclause->had a debate about</li>
+                <li>pe_exchangeverbclause->argued civilly about</li>
+                <li>pe_exchangeverbclause->lectured about</li>
+                <li>pe_exchangeverbclause->exchanged words about</li>
+                <li>pe_exchangeverbclause->conversed about</li>
+                <li>pe_topic->the birds and the bees</li>
+                <li>pe_topic->reproductive health</li>
+                <li>pe_topic->memorable intimate encounters</li>
+                <li>pe_topic->past romantic partners</li>
+                <li>pe_topic->kinks</li>
+                <li>pe_topic->anatomical quirks</li>
+                <li>pe_topic->keeping a partner interested</li>
+              </rulesStrings>
+            </rulePack>
+          </RulePackDef>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

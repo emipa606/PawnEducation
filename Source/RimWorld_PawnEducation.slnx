@@ -3,4 +3,26 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="RimWorld_PawnEducation/RimWorld_PawnEducation.csproj" />
+  <Folder Name="/.github/">
+    <File Path="../.github/copilot-instructions.md" />
+  </Folder>
+  <Folder Name="/XML/Defs/RulePackDefs/">
+    <File Path="../Defs/RulePackDefs/RulePacks_PawnEducation.xml" />
+  </Folder>
+  <Folder Name="/XML/Defs/InteractionDefs/">
+    <File Path="../Defs/InteractionDefs/PawnEducation_InteractionDefs.xml" />
+  </Folder>
+  <Folder Name="/XML/Languages/English/Keyed/">
+    <File Path="../Languages/English/Keyed/Keys_PawnEducation.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Patches/">
+    <File Path="../1.7/Patches/ThatMod.xml" />
+    <File Path="../1.7/Patches/Toughness.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/Defs/ThoughtDefs/">
+    <File Path="../Defs/ThoughtDefs/PawnEducation_ThoughtsDef.xml" />
+  </Folder>
 </Solution>

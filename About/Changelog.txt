@@ -1,5 +1,8 @@
 # Changelog for PawnEducation
 
+1.7.0 - Mod updated for 1.7 and passed autotests
+
+
 1.6.1 - Now supports [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3690936825]Toughness Skill[/url], thanks Delta
 
 

@@ -6,6 +6,7 @@ Update of Tylers mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1729795429
 
 - Added russian translation, via Reiquard
+- Removed Harmony requirement
 
 ![Image](https://img.litet.net/logos/Notice.png)
 	
@@ -106,4 +107,4 @@ Incorporating Insult/Social fight chances into the mix
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/PawnEducation?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2296533470) | tags: education, teaching, social
+[![Image](https://img.shields.io/github/v/release/emipa606/PawnEducation?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2296533470) | education, social, teaching

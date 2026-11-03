@@ -145,7 +145,7 @@ public class InteractionWorker_Education : InteractionWorker
         extraSentencePacks.Add(RulePackDef.Named($"PawnEducation_{taggedInitiatorSkill.def.defName}"));
     }
 
-    private void applyInteractionAndThought(Pawn thoughtReceiver, Pawn thoughtTarget, string defName,
+    private static void applyInteractionAndThought(Pawn thoughtReceiver, Pawn thoughtTarget, string defName,
         List<RulePackDef> extraSentencePacks)
     {
         var rulePack = RulePackDef.Named(defName);

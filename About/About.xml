@@ -12,23 +12,16 @@
     <li>1.4</li>
     <li>1.5</li>
     <li>1.6</li>
+    <li>1.7</li>
   </supportedVersions>
-  <modDependencies>
-    <li>
-      <packageId>brrainz.harmony</packageId>
-      <displayName>Harmony</displayName>
-      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
-      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
-    </li>
-  </modDependencies>
-  <loadAfter>
-    <li>brrainz.harmony</li>
-  </loadAfter>
+  <modDependencies />
+  <loadAfter />
   <description>[img]https://img.litet.net/logos/Info.png[/img]
 Update of Tylers mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1729795429
 
 - Added russian translation, via Reiquard
+- Removed Harmony requirement
 
 [img]https://img.litet.net/logos/Notice.png[/img]
 
@@ -128,6 +121,6 @@ Incorporating Insult/Social fight chances into the mix
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
 [/list] 
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2296533470][img]https://img.shields.io/github/v/release/emipa606/PawnEducation?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags: education, teaching, social</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.1</modVersion>
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2296533470][img]https://img.shields.io/github/v/release/emipa606/PawnEducation?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | education, social, teaching</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.7.0</modVersion>
 </ModMetaData>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd" MayRequire="tyinplop.ToughnessSkillMod">
+        <xpath>Defs</xpath>
+        <value>
+          <RulePackDef>
+            <defName>Toughness</defName>
+            <rulePack>
+              <rulesStrings>
+                <li>sent->[sentence].</li>
+                <li>sentence->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [pe_exchangeverbclause] [pe_topic]</li>
+                <li>sentence->[INITIATOR_nameDef] [pe_exchangeverbclause] [pe_topic] with [RECIPIENT_nameDef]</li>
+                <li>sentence->[INITIATOR_nameDef] told scathing joke to [RECIPIENT_nameDef]</li>
+                <li>pe_exchangeverbclause->discussed</li>
+                <li>pe_exchangeverbclause->talked about</li>
+                <li>pe_exchangeverbclause->had a debate about</li>
+                <li>pe_exchangeverbclause->argued civilly about</li>
+                <li>pe_exchangeverbclause->lectured about</li>
+                <li>pe_exchangeverbclause->exchanged words about</li>
+                <li>pe_exchangeverbclause->conversed about</li>
+                <li>pe_topic->defending oneself</li>
+                <li>pe_topic->defence</li>
+                <li>pe_topic->memorable survival experiences</li>
+                <li>pe_topic->past hardships</li>
+                <li>pe_topic->dodging</li>
+                <li>pe_topic->physical ability</li>
+                <li>pe_topic->keeping yourself safe</li>
+              </rulesStrings>
+            </rulePack>
+          </RulePackDef>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>
